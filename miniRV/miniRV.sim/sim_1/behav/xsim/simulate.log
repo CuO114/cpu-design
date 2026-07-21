@@ -1,0 +1,28 @@
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module soc_simple_tb.DUT.U_cpu.U_irom.U_irom.inst.native_mem_module.blk_mem_gen_v8_4_11_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module soc_simple_tb.DUT.U_cpu.U_dram.U_dram.inst.native_mem_module.blk_mem_gen_v8_4_11_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_11 WARNING: Address 7e00 is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7e00 is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7e00 is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7e00 is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7dff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7c3c is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7dff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+blk_mem_gen_v8_4_11 WARNING: Address 7fff is outside range for A Read
+Test Passed!
+$finish called at time : 5999512 ps : File "D:/cpu-design/miniRV/src/sim/soc_simple_tb.v" Line 22

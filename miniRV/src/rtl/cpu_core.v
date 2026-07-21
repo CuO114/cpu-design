@@ -105,22 +105,21 @@ module cpu_core(
      **********************************************************************/
     reg [31:0] if_id_pc   /* verilator public */;
     reg [31:0] if_id_inst /* verilator public */;
+    reg        if_id_valid;
 
     always @(posedge cpu_clk or posedge cpu_rst) begin
         if (cpu_rst) begin
             if_id_pc   <= 32'h0;
             if_id_inst <= 32'h0;
+            if_id_valid <= 1'b0;
         end else if (effective_flush) begin
             if_id_pc   <= 32'h0;
             if_id_inst <= 32'h0;
+            if_id_valid <= 1'b0;
         end else if (!stall_f) begin
             if_id_pc   <= fetch_pc;
             if_id_inst <= ifetch_valid ? ifetch_inst : 32'h0;
-        end else if (mul_div_stall && (if_id_pc == id_ex_pc) && (if_id_pc != 32'h0)) begin
-            // Kill duplicate: IF/ID holds same MUL as ID/EX during stall.
-            // Prevent it from advancing to ID/EX when stall releases.
-            if_id_pc   <= 32'h0;
-            if_id_inst <= 32'h0;
+            if_id_valid <= ifetch_valid;
         end
     end
 
@@ -282,28 +281,29 @@ module cpu_core(
     wire [31:0] ex_br_target   = id_ex_br_target;
     wire [31:0] ex_jalr_target = {ex_alu_c[31:1], 1'b0};
 
-    // mul_div_release: PC skipped instruction during stall, flush_f re-fetches it.
-    // Track this flush type separately — mul/div needs PC held during flush_next2
-    // to keep BRAM reading the re-fetched address (pc-4), unlike branches where
-    // PC advances during flush_next2 (works because adjacent instructions match).
+    // IF/ID holds the next valid instruction across a mul/div stall. Re-fetch
+    // the following address to resynchronize the synchronous instruction ROM.
     reg  mul_div_flush;
     always @(posedge cpu_clk or posedge cpu_rst) begin
-        if (cpu_rst)             mul_div_flush <= 1'b0;
+        if (cpu_rst)              mul_div_flush <= 1'b0;
         else if (mul_div_release) mul_div_flush <= 1'b1;
         else if (!flush_next && !flush_next2) mul_div_flush <= 1'b0;
     end
 
     wire flush_f /* verilator public */ = id_is_jal | ex_br_taken | ex_is_jalr
                                         | mul_div_release;
-    wire flush_d /* verilator public */ = ex_br_taken | ex_is_jalr | load_use_stall | duplicate_mul;
+    wire mul_div_ifid_duplicate = mul_div_release & if_id_valid
+                                 & (if_id_pc == id_ex_pc);
+    wire flush_d /* verilator public */ = ex_br_taken | ex_is_jalr | load_use_stall
+                                        | mul_div_ifid_duplicate;
 
     assign ifetch_req  = !cpu_rst;
     assign ifetch_addr = pc;
 
     wire [31:0] pc_next;
-    // MUL release: re-fetch instruction after the one stuck in IF/ID.
-    // If IF/ID was killed (duplicate), re-fetch instruction after MUL.
-    assign pc_next = mul_div_release ? ((if_id_pc != 32'h0) ? (if_id_pc + 32'h4) : (id_ex_pc + 32'h4)) :
+    assign pc_next = mul_div_release
+                   ? ((if_id_valid && (if_id_pc != id_ex_pc))
+                      ? (if_id_pc + 32'h4) : (id_ex_pc + 32'h4)) :
                      ex_br_taken  ? ex_br_target  :
                      ex_is_jalr   ? ex_jalr_target :
                      id_is_jal    ? id_jal_target  :
@@ -317,11 +317,9 @@ module cpu_core(
     always @(posedge cpu_clk or posedge cpu_rst) begin
         if (cpu_rst)
             mul_div_entering <= 1'b0;
-        else if (id_mul_div && !mul_div_stall)
-            // MUL in IF/ID about to enter EX: set entering flag for 1 cycle
-            mul_div_entering <= 1'b1;
+        else if (!stall_f && !flush_d)
+            mul_div_entering <= id_mul_div;
         else
-            // Self-clear once stall starts (next cycle busy takes over)
             mul_div_entering <= 1'b0;
     end
 
@@ -338,8 +336,6 @@ module cpu_core(
                        & (mul_div_entering | ex_mul_div_busy)
                        & !duplicate_mul;
 
-    // Falling edge of mul_div_stall: PC must go back 4 to re-fetch the
-    // instruction that was lost when IF/ID stalled (BRAM 1-cycle latency)
     reg  mul_div_stall_d;
     wire mul_div_release = mul_div_stall_d & !mul_div_stall;
     always @(posedge cpu_clk or posedge cpu_rst) begin
@@ -616,28 +612,24 @@ module cpu_core(
         if (|id_ex_ram_wop) store_data_r <= id_ex_rd2;
     end
 
-    // debug_wb: pulse once when WB instruction changes
+    // Suppress only consecutive duplicate WB cycles. The valid bit keeps the
+    // first commit at PC 0 visible and allows the same PC again after a bubble.
+    reg        last_wb_valid;
     reg [31:0] last_wb_pc;
     always @(posedge cpu_clk or posedge cpu_rst) begin
-        if (cpu_rst) last_wb_pc <= 32'h0;
-        else if (mem_wb_pc != 32'h0) last_wb_pc <= mem_wb_pc;
-    end
-    wire wb_change = (mem_wb_pc != last_wb_pc);
-    assign debug_wb_pc    = mem_wb_pc;
-    // Simple wb_change-gated event detection
-    assign debug_wb_rf_we = mem_wb_rf_we & wb_change;
-
-    // DEBUG: comprehensive PIPE trace for mul test range
-    always @(posedge cpu_clk) begin
-        if (pc >= 32'h00 && pc <= 32'hd0) begin
-            $display("[PIPE] pc=%h fp=%h | IF=%h ID=%h EX=%h MW=%h | sf=%d sd=%d se=%d ff=%d | fnext=%d fnext2=%d | wbch=%d mrw=%d mwe=%d | rel=%d mst=%d enter=%d busy=%d",
-                pc, fetch_pc, if_id_pc, id_ex_pc, ex_mem_pc, mem_wb_pc,
-                stall_f, stall_d, stall_e, flush_f,
-                flush_next, flush_next2,
-                wb_change, mem_wb_rf_we, debug_wb_rf_we,
-                mul_div_release, mul_div_stall, mul_div_entering, ex_mul_div_busy);
+        if (cpu_rst) begin
+            last_wb_valid <= 1'b0;
+            last_wb_pc    <= 32'h0;
+        end else begin
+            last_wb_valid <= mem_wb_rf_we;
+            if (mem_wb_rf_we)
+                last_wb_pc <= mem_wb_pc;
         end
     end
+
+    assign debug_wb_pc    = mem_wb_pc;
+    assign debug_wb_rf_we = mem_wb_rf_we
+                          & (!last_wb_valid | (mem_wb_pc != last_wb_pc));
     assign debug_wb_rf_wR = mem_wb_rd;
     assign debug_wb_rf_wD = wb_rf_wD;
 
