@@ -1,0 +1,58 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Mon Jul 20 10:42:45 2026
+| Host         : LAPTOP-1C1u4O running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcsg324-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'clk_wiz_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of clk_wiz_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 13) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Mon Jul 20 10:42:40 2026
+| Host         : LAPTOP-1C1u4O running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcsg324-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'IROM'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of IROM (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 7) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Mon Jul 20 10:42:40 2026
+| Host         : LAPTOP-1C1u4O running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcsg324-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'DRAM'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of DRAM (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 7) to (Rev. 11)
+
