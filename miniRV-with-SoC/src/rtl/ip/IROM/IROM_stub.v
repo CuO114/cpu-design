@@ -4,7 +4,8 @@
 // Tool Version: Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
 // Date        : Mon Jul 20 10:46:44 2026
 // Host        : LAPTOP-1C1u4O running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub d:/cpu-design/miniRV/src/rtl/ip/IROM/IROM_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top IROM -prefix
+//               IROM_ IROM_stub.v
 // Design      : IROM
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a35tcsg324-1

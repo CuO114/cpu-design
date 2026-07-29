@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Jul 29 10:13:54 2026
+# Process ID         : 13184
+# Current directory  : D:/cpu-design/miniRV-with-SoC
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent27696 D:\cpu-design\miniRV-with-SoC\miniRV.xpr
+# Log file           : D:/cpu-design/miniRV-with-SoC/vivado.log
+# Journal file       : D:/cpu-design/miniRV-with-SoC\vivado.jou
+# Running On         : LAPTOP-1C1u4O
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 125H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 18
+# Host memory        : 33945 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39046 MB
+# Available Virtual  : 17597 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/cpu-design/miniRV-with-SoC/miniRV.xpr
+update_compile_order -fileset sources_1
+synth_design -top miniRV_SoC -part xc7a35tcsg324-1 -lint 
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_1 -dir D:/cpu-design/miniRV-with-SoC/src/rtl/ip
+set_property -dict [list \
+  CONFIG.Coe_File {D:/cpu-design/miniRV-with-SoC/src/coe/lw.coe} \
+  CONFIG.Fill_Remaining_Memory_Locations {true} \
+  CONFIG.Interface_Type {AXI4} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Write_Depth_A {38400} \
+] [get_ips blk_mem_gen_1]
+generate_target {instantiation_template} [get_files d:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci]
+generate_target all [get_files  d:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci]
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_1] }
+export_ip_user_files -of_objects [get_files d:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci]
+launch_runs blk_mem_gen_1_synth_1
+wait_on_run blk_mem_gen_1_synth_1
+export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files d:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1

@@ -1,0 +1,7 @@
+xpm_cdc.sv,systemverilog,xpm,../ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="../../../../../../vivado/2025.1/Vivado/data/rsb/busdef"
+xpm_memory.sv,systemverilog,xpm,../ip/xpm/xpm_memory/hdl/xpm_memory.sv,incdir="../../../../../../vivado/2025.1/Vivado/data/rsb/busdef"
+xpm_VCOMP.vhd,vhdl,xpm,../ip/xpm/xpm_VCOMP.vhd,incdir="../../../../../../vivado/2025.1/Vivado/data/rsb/busdef"
+axi_lite_ipif_v3_0_vh_rfs.vhd,vhdl,axi_lite_ipif_v3_0_4,../../../ipstatic/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd,incdir="../../../../../../vivado/2025.1/Vivado/data/rsb/busdef"
+axi_uartlite_v2_0_vh_rfs.vhd,vhdl,axi_uartlite_v2_0_39,../../../ipstatic/hdl/axi_uartlite_v2_0_vh_rfs.vhd,incdir="../../../../../../vivado/2025.1/Vivado/data/rsb/busdef"
+axi_uartlite_0.vhd,vhdl,xil_defaultlib,../../../../src/rtl/ip/axi_uartlite_0/sim/axi_uartlite_0.vhd,incdir="../../../../../../vivado/2025.1/Vivado/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,265 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Jul 29 10:13:54 2026
+# Process ID         : 13184
+# Current directory  : D:/cpu-design/miniRV-with-SoC
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent27696 D:\cpu-design\miniRV-with-SoC\miniRV.xpr
+# Log file           : D:/cpu-design/miniRV-with-SoC/vivado.log
+# Journal file       : D:/cpu-design/miniRV-with-SoC\vivado.jou
+# Running On         : LAPTOP-1C1u4O
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 125H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 18
+# Host memory        : 33945 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39046 MB
+# Available Virtual  : 17597 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/cpu-design/miniRV-with-SoC/miniRV.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/2025.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:45 ; elapsed = 00:00:25 . Memory (MB): peak = 1827.715 ; gain = 273.297
+update_compile_order -fileset sources_1
+synth_design -top miniRV_SoC -part xc7a35tcsg324-1 -lint 
+Command: synth_design -top miniRV_SoC -part xc7a35tcsg324-1 -lint
+Starting synth_design
+WARNING: [Vivado_Tcl 4-391] The following IPs are missing output products for Synthesis target. These output products could be required for synthesis, please generate the output products using the generate_target or synth_ip command before running synth_design.
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci
+
+WARNING: [Vivado_Tcl 4-391] The following IPs are missing output products for Implementation target. These output products could be required for synthesis, please generate the output products using the generate_target or synth_ip command before running synth_design.
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22948
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2298.066 ; gain = 469.250
+---------------------------------------------------------------------------------
+Clean up Linter database...
+WARNING: [Synth 8-6901] identifier 'multi_active' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:27]
+WARNING: [Synth 8-6901] identifier 'any_mul_div' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:27]
+WARNING: [Synth 8-6901] identifier 'a_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:45]
+WARNING: [Synth 8-6901] identifier 'b_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:45]
+WARNING: [Synth 8-6901] identifier 'b_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:46]
+WARNING: [Synth 8-6901] identifier 'a_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:46]
+INFO: [Synth 8-11241] undeclared symbol 'wb_rf_we', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:148]
+INFO: [Synth 8-11241] undeclared symbol 'wb_rf_wR', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:149]
+INFO: [Synth 8-11241] undeclared symbol 'wb_rf_wD', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:150]
+INFO: [Synth 8-11241] undeclared symbol 'ex_mem_rd', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:348]
+INFO: [Synth 8-11241] undeclared symbol 'ex_mem_rf_we', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:349]
+INFO: [Synth 8-11241] undeclared symbol 'mem_wb_rd', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:350]
+INFO: [Synth 8-11241] undeclared symbol 'mem_wb_rf_we', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:351]
+WARNING: [Synth 8-8895] 'ex_mem_rf_we' is already implicitly declared on line 349 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:429]
+WARNING: [Synth 8-8895] 'ex_mem_rd' is already implicitly declared on line 348 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:433]
+WARNING: [Synth 8-8895] 'mem_wb_rf_we' is already implicitly declared on line 351 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:532]
+WARNING: [Synth 8-8895] 'mem_wb_rd' is already implicitly declared on line 350 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:534]
+WARNING: [Synth 8-8895] 'wb_rf_we' is already implicitly declared on line 148 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:602]
+WARNING: [Synth 8-8895] 'wb_rf_wR' is already implicitly declared on line 149 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:603]
+WARNING: [Synth 8-8895] 'wb_rf_wD' is already implicitly declared on line 150 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:604]
+WARNING: [Synth 8-6901] identifier 'flush_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:45]
+WARNING: [Synth 8-6901] identifier 'flush_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:54]
+WARNING: [Synth 8-6901] identifier 'pc_next' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:55]
+WARNING: [Synth 8-6901] identifier 'stall_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:56]
+WARNING: [Synth 8-6901] identifier 'flush_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:79]
+WARNING: [Synth 8-6901] identifier 'stall_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:84]
+WARNING: [Synth 8-6901] identifier 'flush_d' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:206]
+WARNING: [Synth 8-6901] identifier 'stall_d' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:220]
+WARNING: [Synth 8-6901] identifier 'id_fwd_rd1' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:223]
+WARNING: [Synth 8-6901] identifier 'id_store_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:224]
+WARNING: [Synth 8-6901] identifier 'ex_br' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:261]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:266]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:272]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:273]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:285]
+WARNING: [Synth 8-6901] identifier 'stall_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:301]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:313]
+WARNING: [Synth 8-6901] identifier 'ex_mul_div_busy' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:317]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:359]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:361]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:363]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:367]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:369]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:371]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:378]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:380]
+WARNING: [Synth 8-6901] identifier 'ex_mem_rf_wsel' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:388]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:388]
+WARNING: [Synth 8-6901] identifier 'ex_mem_rf_wsel' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:389]
+WARNING: [Synth 8-6901] identifier 'ex_mem_ext' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:389]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:390]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:395]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:401]
+WARNING: [Synth 8-6901] identifier 'O_WID' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:11]
+INFO: [Synth 8-6157] synthesizing module 'miniRV_SoC' [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/cpu-design/miniRV-with-SoC/.Xil/Vivado-13184-LAPTOP-1C1u4O/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/cpu-design/miniRV-with-SoC/.Xil/Vivado-13184-LAPTOP-1C1u4O/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_top' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_top.v:5]
+INFO: [Synth 8-6157] synthesizing module 'cpu_core' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [D:/cpu-design/miniRV-with-SoC/src/rtl/Controller.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (2#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/Controller.v:5]
+INFO: [Synth 8-6157] synthesizing module 'RF' [D:/cpu-design/miniRV-with-SoC/src/rtl/RF.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'RF' (3#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/RF.v:3]
+INFO: [Synth 8-6157] synthesizing module 'SEXT' [D:/cpu-design/miniRV-with-SoC/src/rtl/SEXT.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'SEXT' (4#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/SEXT.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ForwardingUnit' [D:/cpu-design/miniRV-with-SoC/src/rtl/ForwardingUnit.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ForwardingUnit' (5#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/ForwardingUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:5]
+INFO: [Synth 8-6157] synthesizing module 'multiplier' [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'multiplier' (6#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+INFO: [Synth 8-6157] synthesizing module 'multiplier__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+	Parameter WIDTH bound to: 33 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'multiplier__parameterized0' (6#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+WARNING: [Synth 8-689] width (64) of port connection 'z' does not match port width (66) of module 'multiplier__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:129]
+INFO: [Synth 8-6157] synthesizing module 'divider' [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'divider' (7#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+INFO: [Synth 8-6157] synthesizing module 'divider__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+	Parameter WIDTH bound to: 33 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'divider__parameterized0' (7#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+WARNING: [Synth 8-689] width (32) of port connection 'z' does not match port width (33) of module 'divider__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:150]
+WARNING: [Synth 8-689] width (32) of port connection 'r' does not match port width (33) of module 'divider__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (8#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MREQ' [D:/cpu-design/miniRV-with-SoC/src/rtl/MREQ.v:5]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/cpu-design/miniRV-with-SoC/src/rtl/MREQ.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'MREQ' (9#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/MREQ.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MEXT' [D:/cpu-design/miniRV-with-SoC/src/rtl/MEXT.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MEXT' (10#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/MEXT.v:5]
+WARNING: [Synth 8-6014] Unused sequential element ex_mem_br_reg was removed.  [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:444]
+WARNING: [Synth 8-6014] Unused sequential element ex_mem_is_mul_reg was removed.  [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:450]
+WARNING: [Synth 8-6014] Unused sequential element ex_mem_is_div_reg was removed.  [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:451]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_core' (11#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:5]
+INFO: [Synth 8-6157] synthesizing module 'DCache' [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:10]
+ERROR: [Synth 8-439] module 'blk_mem_gen_1' not found [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:88]
+ERROR: [Synth 8-6156] failed synthesizing module 'DCache' [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:10]
+ERROR: [Synth 8-6156] failed synthesizing module 'cpu_top' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_top.v:5]
+ERROR: [Synth 8-6156] failed synthesizing module 'miniRV_SoC' [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:5]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2420.336 ; gain = 591.520
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 55 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2420.336 ; gain = 592.621
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/cpu-design/miniRV-with-SoC/src/coe/lw.coe' provided. It will be converted relative to IP Instance files '../../../../src/coe/lw.coe'
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_1 -dir D:/cpu-design/miniRV-with-SoC/src/rtl/ip
+set_property -dict [list \
+  CONFIG.Coe_File {D:/cpu-design/miniRV-with-SoC/src/coe/lw.coe} \
+  CONFIG.Fill_Remaining_Memory_Locations {true} \
+  CONFIG.Interface_Type {AXI4} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Write_Depth_A {38400} \
+] [get_ips blk_mem_gen_1]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/cpu-design/miniRV-with-SoC/src/coe/lw.coe' provided. It will be converted relative to IP Instance files '../../../coe/lw.coe'
+generate_target {instantiation_template} [get_files d:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_1'...
+generate_target all [get_files  d:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_1'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_1'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_1] }
+export_ip_user_files -of_objects [get_files d:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci]
+launch_runs blk_mem_gen_1_synth_1
+[Wed Jul 29 10:16:57 2026] Launched blk_mem_gen_1_synth_1...
+Run output will be captured here: D:/cpu-design/miniRV-with-SoC/miniRV.runs/blk_mem_gen_1_synth_1/runme.log
+export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files d:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1_1/blk_mem_gen_1.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1
+
+launch_runs synth_1
+[Wed Jul 29 10:17:09 2026] Launched blk_mem_gen_1_synth_1...
+Run output will be captured here: D:/cpu-design/miniRV-with-SoC/miniRV.runs/blk_mem_gen_1_synth_1/runme.log
+[Wed Jul 29 10:17:09 2026] Launched synth_1...
+Run output will be captured here: D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 29 10:30:49 2026...

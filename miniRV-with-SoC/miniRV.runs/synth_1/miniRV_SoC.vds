@@ -1,0 +1,598 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Jul 29 11:46:42 2026
+# Process ID         : 32556
+# Current directory  : D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1
+# Command line       : vivado.exe -log miniRV_SoC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source miniRV_SoC.tcl
+# Log file           : D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/miniRV_SoC.vds
+# Journal file       : D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-1C1u4O
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 125H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 18
+# Host memory        : 33945 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39046 MB
+# Available Virtual  : 13985 MB
+#-----------------------------------------------------------
+source miniRV_SoC.tcl -notrace
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 604.828 ; gain = 211.402
+Command: synth_design -top miniRV_SoC -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 31232
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1310.398 ; gain = 493.160
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6901] identifier 'multi_active' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:27]
+WARNING: [Synth 8-6901] identifier 'any_mul_div' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:27]
+WARNING: [Synth 8-6901] identifier 'a_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:45]
+WARNING: [Synth 8-6901] identifier 'b_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:45]
+WARNING: [Synth 8-6901] identifier 'b_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:46]
+WARNING: [Synth 8-6901] identifier 'a_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:46]
+INFO: [Synth 8-11241] undeclared symbol 'wb_rf_we', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:148]
+INFO: [Synth 8-11241] undeclared symbol 'wb_rf_wR', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:149]
+INFO: [Synth 8-11241] undeclared symbol 'wb_rf_wD', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:150]
+INFO: [Synth 8-11241] undeclared symbol 'ex_mem_rd', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:348]
+INFO: [Synth 8-11241] undeclared symbol 'ex_mem_rf_we', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:349]
+INFO: [Synth 8-11241] undeclared symbol 'mem_wb_rd', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:350]
+INFO: [Synth 8-11241] undeclared symbol 'mem_wb_rf_we', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:351]
+WARNING: [Synth 8-8895] 'ex_mem_rf_we' is already implicitly declared on line 349 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:429]
+WARNING: [Synth 8-8895] 'ex_mem_rd' is already implicitly declared on line 348 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:433]
+WARNING: [Synth 8-8895] 'mem_wb_rf_we' is already implicitly declared on line 351 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:532]
+WARNING: [Synth 8-8895] 'mem_wb_rd' is already implicitly declared on line 350 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:534]
+WARNING: [Synth 8-8895] 'wb_rf_we' is already implicitly declared on line 148 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:602]
+WARNING: [Synth 8-8895] 'wb_rf_wR' is already implicitly declared on line 149 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:603]
+WARNING: [Synth 8-8895] 'wb_rf_wD' is already implicitly declared on line 150 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:604]
+WARNING: [Synth 8-6901] identifier 'flush_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:45]
+WARNING: [Synth 8-6901] identifier 'flush_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:54]
+WARNING: [Synth 8-6901] identifier 'pc_next' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:55]
+WARNING: [Synth 8-6901] identifier 'stall_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:56]
+WARNING: [Synth 8-6901] identifier 'flush_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:79]
+WARNING: [Synth 8-6901] identifier 'stall_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:84]
+WARNING: [Synth 8-6901] identifier 'flush_d' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:206]
+WARNING: [Synth 8-6901] identifier 'stall_d' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:220]
+WARNING: [Synth 8-6901] identifier 'id_fwd_rd1' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:223]
+WARNING: [Synth 8-6901] identifier 'id_store_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:224]
+WARNING: [Synth 8-6901] identifier 'ex_br' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:261]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:266]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:272]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:273]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:285]
+WARNING: [Synth 8-6901] identifier 'stall_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:301]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:313]
+WARNING: [Synth 8-6901] identifier 'ex_mul_div_busy' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:317]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:359]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:361]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:363]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:367]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:369]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:371]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:378]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:380]
+WARNING: [Synth 8-6901] identifier 'ex_mem_rf_wsel' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:388]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:388]
+WARNING: [Synth 8-6901] identifier 'ex_mem_rf_wsel' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:389]
+WARNING: [Synth 8-6901] identifier 'ex_mem_ext' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:389]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:390]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:395]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:401]
+WARNING: [Synth 8-6901] identifier 'O_WID' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:11]
+INFO: [Synth 8-6157] synthesizing module 'miniRV_SoC' [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_top' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_top.v:5]
+INFO: [Synth 8-6157] synthesizing module 'cpu_core' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [D:/cpu-design/miniRV-with-SoC/src/rtl/Controller.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/Controller.v:5]
+INFO: [Synth 8-6157] synthesizing module 'RF' [D:/cpu-design/miniRV-with-SoC/src/rtl/RF.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'RF' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/RF.v:3]
+INFO: [Synth 8-6157] synthesizing module 'SEXT' [D:/cpu-design/miniRV-with-SoC/src/rtl/SEXT.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'SEXT' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/SEXT.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ForwardingUnit' [D:/cpu-design/miniRV-with-SoC/src/rtl/ForwardingUnit.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ForwardingUnit' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/ForwardingUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:5]
+INFO: [Synth 8-6157] synthesizing module 'multiplier' [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'multiplier' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+INFO: [Synth 8-6157] synthesizing module 'multiplier__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+	Parameter WIDTH bound to: 33 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'multiplier__parameterized0' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+WARNING: [Synth 8-689] width (64) of port connection 'z' does not match port width (66) of module 'multiplier__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:129]
+INFO: [Synth 8-6157] synthesizing module 'divider' [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'divider' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+INFO: [Synth 8-6157] synthesizing module 'divider__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+	Parameter WIDTH bound to: 33 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'divider__parameterized0' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+WARNING: [Synth 8-689] width (32) of port connection 'z' does not match port width (33) of module 'divider__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:150]
+WARNING: [Synth 8-689] width (32) of port connection 'r' does not match port width (33) of module 'divider__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MREQ' [D:/cpu-design/miniRV-with-SoC/src/rtl/MREQ.v:5]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/cpu-design/miniRV-with-SoC/src/rtl/MREQ.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'MREQ' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/MREQ.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MEXT' [D:/cpu-design/miniRV-with-SoC/src/rtl/MEXT.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MEXT' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/MEXT.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_core' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:5]
+INFO: [Synth 8-6157] synthesizing module 'DCache' [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:10]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:59]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/blk_mem_gen_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'ena' of module 'blk_mem_gen_1' is unconnected for instance 'U_dsram' [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:88]
+WARNING: [Synth 8-7023] instance 'U_dsram' of module 'blk_mem_gen_1' has 6 connections declared, but only 5 given [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'DCache' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ICache' [D:/cpu-design/miniRV-with-SoC/src/rtl/ICache.v:9]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/cpu-design/miniRV-with-SoC/src/rtl/ICache.v:30]
+WARNING: [Synth 8-7071] port 'ena' of module 'blk_mem_gen_1' is unconnected for instance 'U_isram' [D:/cpu-design/miniRV-with-SoC/src/rtl/ICache.v:60]
+WARNING: [Synth 8-7023] instance 'U_isram' of module 'blk_mem_gen_1' has 6 connections declared, but only 5 given [D:/cpu-design/miniRV-with-SoC/src/rtl/ICache.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'ICache' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/ICache.v:9]
+INFO: [Synth 8-6157] synthesizing module 'axi_master' [D:/cpu-design/miniRV-with-SoC/src/rtl/axi_master.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'axi_master' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/axi_master.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_top' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_top.v:5]
+INFO: [Synth 8-6157] synthesizing module 'bram_axi' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/bram_axi_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bram_axi' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/bram_axi_stub.v:6]
+WARNING: [Synth 8-7071] port 's_axi_bid' of module 'bram_axi' is unconnected for instance 'U_bram' [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:290]
+WARNING: [Synth 8-7071] port 's_axi_rid' of module 'bram_axi' is unconnected for instance 'U_bram' [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:290]
+WARNING: [Synth 8-7023] instance 'U_bram' of module 'bram_axi' has 31 connections declared, but only 29 given [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:290]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_0' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_crossbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_0' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_crossbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'timer_wrap' [D:/cpu-design/miniRV-with-SoC/src/rtl/timer_wrap.v:1]
+INFO: [Synth 8-6157] synthesizing module 'axi_gpio_0' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_gpio_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'axi_gpio_0' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_gpio_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_0' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_protocol_converter_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_0' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_protocol_converter_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'axi_protocol_converter_0' is unconnected for instance 'U_timer_converter' [D:/cpu-design/miniRV-with-SoC/src/rtl/timer_wrap.v:89]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'axi_protocol_converter_0' is unconnected for instance 'U_timer_converter' [D:/cpu-design/miniRV-with-SoC/src/rtl/timer_wrap.v:89]
+WARNING: [Synth 8-7023] instance 'U_timer_converter' of module 'axi_protocol_converter_0' has 56 connections declared, but only 54 given [D:/cpu-design/miniRV-with-SoC/src/rtl/timer_wrap.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'timer_wrap' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/timer_wrap.v:1]
+INFO: [Synth 8-6157] synthesizing module 'uart_wrap' [D:/cpu-design/miniRV-with-SoC/src/rtl/uart_wrap.v:1]
+INFO: [Synth 8-6157] synthesizing module 'axi_uartlite_0' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_uartlite_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'axi_uartlite_0' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_uartlite_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'axi_protocol_converter_0' is unconnected for instance 'U_uart_converter' [D:/cpu-design/miniRV-with-SoC/src/rtl/uart_wrap.v:90]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'axi_protocol_converter_0' is unconnected for instance 'U_uart_converter' [D:/cpu-design/miniRV-with-SoC/src/rtl/uart_wrap.v:90]
+WARNING: [Synth 8-7023] instance 'U_uart_converter' of module 'axi_protocol_converter_0' has 56 connections declared, but only 54 given [D:/cpu-design/miniRV-with-SoC/src/rtl/uart_wrap.v:90]
+INFO: [Synth 8-6155] done synthesizing module 'uart_wrap' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/uart_wrap.v:1]
+INFO: [Synth 8-6157] synthesizing module 'switch_wrap' [D:/cpu-design/miniRV-with-SoC/src/rtl/switch_and_led_wrap.v:1]
+INFO: [Synth 8-6157] synthesizing module 'axi_gpio_1' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_gpio_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'axi_gpio_1' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_gpio_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'switch_wrap' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/switch_and_led_wrap.v:1]
+INFO: [Synth 8-6157] synthesizing module 'led_wrap' [D:/cpu-design/miniRV-with-SoC/src/rtl/switch_and_led_wrap.v:151]
+INFO: [Synth 8-6157] synthesizing module 'axi_gpio_2' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_gpio_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'axi_gpio_2' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_gpio_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'led_wrap' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/switch_and_led_wrap.v:151]
+INFO: [Synth 8-6157] synthesizing module 'display_wrap' [D:/cpu-design/miniRV-with-SoC/src/rtl/display_wrap.v:1]
+INFO: [Synth 8-6157] synthesizing module 'axi_gpio_3' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_gpio_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'axi_gpio_3' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-32556-LAPTOP-1C1u4O/realtime/axi_gpio_3_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'axi_protocol_converter_0' is unconnected for instance 'U_display_converter' [D:/cpu-design/miniRV-with-SoC/src/rtl/display_wrap.v:89]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'axi_protocol_converter_0' is unconnected for instance 'U_display_converter' [D:/cpu-design/miniRV-with-SoC/src/rtl/display_wrap.v:89]
+WARNING: [Synth 8-7023] instance 'U_display_converter' of module 'axi_protocol_converter_0' has 56 connections declared, but only 54 given [D:/cpu-design/miniRV-with-SoC/src/rtl/display_wrap.v:89]
+INFO: [Synth 8-226] default block is never used [D:/cpu-design/miniRV-with-SoC/src/rtl/display_wrap.v:184]
+INFO: [Synth 8-6155] done synthesizing module 'display_wrap' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/display_wrap.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'miniRV_SoC' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:5]
+WARNING: [Synth 8-6014] Unused sequential element ex_mem_br_reg was removed.  [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:444]
+WARNING: [Synth 8-6014] Unused sequential element ex_mem_is_mul_reg was removed.  [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:450]
+WARNING: [Synth 8-6014] Unused sequential element ex_mem_is_div_reg was removed.  [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:451]
+WARNING: [Synth 8-7129] Port ic_cpu_raddr[3] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ic_cpu_raddr[2] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ic_cpu_raddr[1] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ic_cpu_raddr[0] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dc_cpu_waddr[1] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dc_cpu_waddr[0] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dc_cpu_raddr[1] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dc_cpu_raddr[0] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_bresp[1] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_bresp[0] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rresp[1] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rresp[0] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_addr[1] in module ICache is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inst_addr[0] in module ICache is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rd[4] in module ForwardingUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rd[3] in module ForwardingUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rd[2] in module ForwardingUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rd[1] in module ForwardingUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rd[0] in module ForwardingUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rf_we in module ForwardingUnit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1447.207 ; gain = 629.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1447.207 ; gain = 629.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1447.207 ; gain = 629.969
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.112 . Memory (MB): peak = 1447.207 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/miniRV.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'U_clkgen'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/miniRV.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'U_clkgen'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi/bram_axi_in_context.xdc] for cell 'U_bram'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi/bram_axi_in_context.xdc] for cell 'U_bram'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0/axi_protocol_converter_0_in_context.xdc] for cell 'U_timer/U_timer_converter'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0/axi_protocol_converter_0_in_context.xdc] for cell 'U_timer/U_timer_converter'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0/axi_protocol_converter_0_in_context.xdc] for cell 'U_uart/U_uart_converter'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0/axi_protocol_converter_0_in_context.xdc] for cell 'U_uart/U_uart_converter'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0/axi_protocol_converter_0_in_context.xdc] for cell 'U_switch/U_switch_converter'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0/axi_protocol_converter_0_in_context.xdc] for cell 'U_switch/U_switch_converter'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0/axi_protocol_converter_0_in_context.xdc] for cell 'U_led/U_led_converter'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0/axi_protocol_converter_0_in_context.xdc] for cell 'U_led/U_led_converter'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0/axi_protocol_converter_0_in_context.xdc] for cell 'U_display/U_display_converter'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0/axi_protocol_converter_0_in_context.xdc] for cell 'U_display/U_display_converter'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0/axi_gpio_0_in_context.xdc] for cell 'U_timer/U_timer'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0/axi_gpio_0_in_context.xdc] for cell 'U_timer/U_timer'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0/axi_uartlite_0_in_context.xdc] for cell 'U_uart/U_uart'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0/axi_uartlite_0_in_context.xdc] for cell 'U_uart/U_uart'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1/axi_gpio_1_in_context.xdc] for cell 'U_switch/U_switch_gpio'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1/axi_gpio_1_in_context.xdc] for cell 'U_switch/U_switch_gpio'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2/axi_gpio_2_in_context.xdc] for cell 'U_led/U_led_gpio'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2/axi_gpio_2_in_context.xdc] for cell 'U_led/U_led_gpio'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3/axi_gpio_3_in_context.xdc] for cell 'U_display/U_display_gpio'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3/axi_gpio_3_in_context.xdc] for cell 'U_display/U_display_gpio'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0/axi_crossbar_0_in_context.xdc] for cell 'U_bridge'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0/axi_crossbar_0_in_context.xdc] for cell 'U_bridge'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/miniRV.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'U_cpu/U_dcache/U_dsram'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/miniRV.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'U_cpu/U_dcache/U_dsram'
+Parsing XDC File [d:/cpu-design/miniRV-with-SoC/miniRV.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'U_cpu/U_icache/U_isram'
+Finished Parsing XDC File [d:/cpu-design/miniRV-with-SoC/miniRV.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'U_cpu/U_icache/U_isram'
+Parsing XDC File [D:/cpu-design/miniRV-with-SoC/src/xdc/clock.xdc]
+WARNING: [Constraints 18-619] A clock with name 'fpga_clk' already exists, overwriting the previous clock with the same name. [D:/cpu-design/miniRV-with-SoC/src/xdc/clock.xdc:1]
+Finished Parsing XDC File [D:/cpu-design/miniRV-with-SoC/src/xdc/clock.xdc]
+Parsing XDC File [D:/cpu-design/miniRV-with-SoC/src/xdc/miniRV_SoC.xdc]
+Finished Parsing XDC File [D:/cpu-design/miniRV-with-SoC/src/xdc/miniRV_SoC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/cpu-design/miniRV-with-SoC/src/xdc/miniRV_SoC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/miniRV_SoC_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/miniRV_SoC_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1475.820 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1475.820 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'U_bridge' at clock pin 'aclk' is different from the actual clock period '20.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'U_display/U_display_converter' at clock pin 'aclk' is different from the actual clock period '20.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'U_led/U_led_converter' at clock pin 'aclk' is different from the actual clock period '20.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'U_switch/U_switch_converter' at clock pin 'aclk' is different from the actual clock period '20.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'U_timer/U_timer_converter' at clock pin 'aclk' is different from the actual clock period '20.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'U_uart/U_uart_converter' at clock pin 'aclk' is different from the actual clock period '20.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1482.770 ; gain = 665.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1482.770 ; gain = 665.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1482.770 ; gain = 665.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'r_state_reg' in module 'DCache'
+INFO: [Synth 8-802] inferred FSM for state register 'w_state_reg' in module 'DCache'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ICache'
+INFO: [Synth 8-802] inferred FSM for state register 'r_state_reg' in module 'axi_master'
+INFO: [Synth 8-802] inferred FSM for state register 'w_state_reg' in module 'axi_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  W_IDLE |                               00 |                               00
+                 W_STAT0 |                               01 |                               01
+                 W_STAT1 |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'w_state_reg' using encoding 'sequential' in module 'DCache'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  R_IDLE |                              001 |                               00
+                 R_STAT0 |                              100 |                               01
+                 R_STAT1 |                              010 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_state_reg' using encoding 'one-hot' in module 'DCache'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              001 |                               00
+                   STAT0 |                              010 |                               01
+                   STAT1 |                              100 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'ICache'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  R_IDLE |                               00 |                               00
+                  R_ADDR |                               01 |                               01
+                  R_DATA |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_state_reg' using encoding 'sequential' in module 'axi_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  W_IDLE |                               00 |                               00
+                  W_SEND |                               01 |                               01
+                  W_RESP |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'w_state_reg' using encoding 'sequential' in module 'axi_master'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1482.770 ; gain = 665.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   35 Bit       Adders := 1     
+	   2 Input   34 Bit       Adders := 1     
+	   3 Input   34 Bit       Adders := 1     
+	   3 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 10    
+	   3 Input   32 Bit       Adders := 1     
+	   5 Input   32 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 4     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	              128 Bit    Registers := 2     
+	               34 Bit    Registers := 1     
+	               33 Bit    Registers := 6     
+	               32 Bit    Registers := 34    
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 7     
+	                4 Bit    Registers := 8     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 8     
+	                1 Bit    Registers := 34    
++---RAMs : 
+	              992 Bit	(31 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input  134 Bit        Muxes := 1     
+	   2 Input  128 Bit        Muxes := 4     
+	   3 Input  128 Bit        Muxes := 3     
+	   2 Input   34 Bit        Muxes := 2     
+	   2 Input   33 Bit        Muxes := 7     
+	   2 Input   32 Bit        Muxes := 44    
+	   4 Input   32 Bit        Muxes := 6     
+	   5 Input   32 Bit        Muxes := 1     
+	   3 Input   32 Bit        Muxes := 5     
+	   3 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 5     
+	   2 Input    5 Bit        Muxes := 3     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 15    
+	   3 Input    4 Bit        Muxes := 3     
+	   2 Input    3 Bit        Muxes := 10    
+	   3 Input    3 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 5     
+	   2 Input    2 Bit        Muxes := 13    
+	   2 Input    1 Bit        Muxes := 30    
+	   3 Input    1 Bit        Muxes := 28    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port ic_cpu_raddr[3] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ic_cpu_raddr[2] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ic_cpu_raddr[1] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ic_cpu_raddr[0] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dc_cpu_waddr[1] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dc_cpu_waddr[0] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_bresp[1] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_bresp[0] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rresp[1] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rresp[0] in module axi_master is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rd[4] in module ForwardingUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rd[3] in module ForwardingUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rd[2] in module ForwardingUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rd[1] in module ForwardingUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rd[0] in module ForwardingUnit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port id_ex_rf_we in module ForwardingUnit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:01:01 . Memory (MB): peak = 1612.773 ; gain = 795.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++--------------------+------------+-----------+----------------------+--------------+
+|Module Name         | RTL Object | Inference | Size (Depth x Width) | Primitives   | 
++--------------------+------------+-----------+----------------------+--------------+
+|\U_cpu/U_core /U_RF | regs_reg   | Implied   | 32 x 32              | RAM32M x 12  | 
++--------------------+------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'fpga_clk'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 1661.652 ; gain = 844.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:14 ; elapsed = 00:01:20 . Memory (MB): peak = 1785.680 ; gain = 968.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++--------------------+------------+-----------+----------------------+--------------+
+|Module Name         | RTL Object | Inference | Size (Depth x Width) | Primitives   | 
++--------------------+------------+-----------+----------------------+--------------+
+|\U_cpu/U_core /U_RF | regs_reg   | Implied   | 32 x 32              | RAM32M x 12  | 
++--------------------+------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:17 ; elapsed = 00:01:23 . Memory (MB): peak = 1792.891 ; gain = 975.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \U_cpu/U_dcache/U_dsram  has unconnected pin ena
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \U_cpu/U_icache/U_isram  has unconnected pin ena
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:21 ; elapsed = 00:01:28 . Memory (MB): peak = 1926.555 ; gain = 1109.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:21 ; elapsed = 00:01:28 . Memory (MB): peak = 1926.555 ; gain = 1109.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 1926.555 ; gain = 1109.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 1926.555 ; gain = 1109.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 1926.555 ; gain = 1109.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 1926.555 ; gain = 1109.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------+----------+
+|      |BlackBox name            |Instances |
++------+-------------------------+----------+
+|1     |clk_wiz_0                |         1|
+|2     |bram_axi                 |         1|
+|3     |axi_crossbar_0           |         1|
+|4     |blk_mem_gen_1            |         2|
+|5     |axi_gpio_3               |         1|
+|6     |axi_protocol_converter_0 |         5|
+|7     |axi_gpio_2               |         1|
+|8     |axi_gpio_1               |         1|
+|9     |axi_gpio_0               |         1|
+|10    |axi_uartlite_0           |         1|
++------+-------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------+------+
+|      |Cell                     |Count |
++------+-------------------------+------+
+|1     |axi_crossbar             |     1|
+|2     |axi_gpio                 |     4|
+|6     |axi_protocol_converter   |     1|
+|7     |axi_protocol_converter_0 |     4|
+|11    |axi_uartlite             |     1|
+|12    |blk_mem_gen              |     1|
+|13    |blk_mem_gen_1            |     1|
+|14    |bram_axi                 |     1|
+|15    |clk_wiz                  |     1|
+|16    |CARRY4                   |   190|
+|17    |LUT1                     |   137|
+|18    |LUT2                     |   281|
+|19    |LUT3                     |   474|
+|20    |LUT4                     |   433|
+|21    |LUT5                     |   436|
+|22    |LUT6                     |  1327|
+|23    |MUXF7                    |     6|
+|24    |MUXF8                    |     1|
+|25    |RAM32M                   |    10|
+|26    |RAM32X1D                 |     4|
+|27    |FDCE                     |  1785|
+|28    |FDPE                     |     4|
+|29    |IBUF                     |    18|
+|30    |OBUF                     |    41|
++------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 1926.555 ; gain = 1109.316
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 2 critical warnings and 18 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:08 ; elapsed = 00:01:25 . Memory (MB): peak = 1926.555 ; gain = 1073.754
+Synthesis Optimization Complete : Time (s): cpu = 00:01:22 ; elapsed = 00:01:29 . Memory (MB): peak = 1926.555 ; gain = 1109.316
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1939.746 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 211 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1943.441 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 14 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 10 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 4 instances
+
+Synth Design complete | Checksum: 9a6ccdc6
+INFO: [Common 17-83] Releasing license: Synthesis
+98 Infos, 116 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:27 ; elapsed = 00:01:40 . Memory (MB): peak = 1943.441 ; gain = 1326.008
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1943.441 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/miniRV_SoC.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file miniRV_SoC_utilization_synth.rpt -pb miniRV_SoC_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 29 11:48:53 2026...

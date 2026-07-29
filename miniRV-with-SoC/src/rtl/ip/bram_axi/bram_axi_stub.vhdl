@@ -2,9 +2,10 @@
 -- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
--- Date        : Tue Jul 21 16:49:52 2026
+-- Date        : Tue Jul 21 16:49:50 2026
 -- Host        : LAPTOP-1C1u4O running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub d:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top bram_axi -prefix
+--               bram_axi_ bram_axi_stub.vhdl
 -- Design      : bram_axi
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a35tcsg324-1
