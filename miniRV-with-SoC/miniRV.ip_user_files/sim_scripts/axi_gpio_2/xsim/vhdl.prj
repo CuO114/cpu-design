@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../../src/rtl/ip/axi_gpio_2/sim/axi_gpio_2.vhd" \
+
+# Do not sort compile order
+nosort

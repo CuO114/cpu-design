@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Jul 20 10:41:55 2026
+# Process ID         : 24372
+# Current directory  : D:/cpu-design/miniRV
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent36548 D:\cpu-design\miniRV\miniRV.xpr
+# Log file           : D:/cpu-design/miniRV/vivado.log
+# Journal file       : D:/cpu-design/miniRV\vivado.jou
+# Running On         : LAPTOP-1C1u4O
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 5 125H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 18
+# Host memory        : 33945 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39046 MB
+# Available Virtual  : 15943 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/cpu-design/miniRV/miniRV.xpr
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip -srcset DRAM [get_ips  {DRAM IROM clk_wiz_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {DRAM IROM clk_wiz_0}] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+generate_target all [get_files D:/cpu-design/miniRV/src/rtl/ip/DRAM/DRAM.xci]
+export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV/src/rtl/ip/DRAM/DRAM.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cpu-design/miniRV/src/rtl/ip/DRAM/DRAM.xci] -directory D:/cpu-design/miniRV/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV/miniRV.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset DRAM
+set_property top DRAM [get_fileset DRAM]
+move_files -fileset [get_fileset DRAM] [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV/src/rtl/ip/DRAM/DRAM.xci]
+generate_target all [get_files D:/cpu-design/miniRV/src/rtl/ip/IROM/IROM.xci]
+export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV/src/rtl/ip/IROM/IROM.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cpu-design/miniRV/src/rtl/ip/IROM/IROM.xci] -directory D:/cpu-design/miniRV/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV/miniRV.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset IROM
+set_property top IROM [get_fileset IROM]
+move_files -fileset [get_fileset IROM] [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV/src/rtl/ip/IROM/IROM.xci]
+generate_target all [get_files D:/cpu-design/miniRV/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci]
+export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/cpu-design/miniRV/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci] -directory D:/cpu-design/miniRV/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV/miniRV.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV/miniRV.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset clk_wiz_0
+set_property top clk_wiz_0 [get_fileset clk_wiz_0]
+move_files -fileset [get_fileset clk_wiz_0] [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci]
+launch_run {DRAM_synth_1 IROM_synth_1 clk_wiz_0_synth_1}
+wait_on_run DRAM_synth_1
+
+wait_on_run DRAM_synth_1
+wait_on_run IROM_synth_1
+
+wait_on_run DRAM_synth_1
+wait_on_run IROM_synth_1
+wait_on_run clk_wiz_0_synth_1
+
+launch_simulation
+open_wave_config D:/cpu-design/miniRV/soc_simple_tb.wcfg
+source soc_simple_tb.tcl
+close_sim

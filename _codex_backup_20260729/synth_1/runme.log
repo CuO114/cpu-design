@@ -1,0 +1,164 @@
+
+*** Running vivado
+    with args -log miniRV_SoC.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source miniRV_SoC.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Wed Jul 29 10:34:20 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source miniRV_SoC.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 602.086 ; gain = 207.609
+Command: synth_design -top miniRV_SoC -part xc7a35tcsg324-1
+Starting synth_design
+WARNING: [Vivado_Tcl 4-391] The following IPs are missing output products for Synthesis target. These output products could be required for synthesis, please generate the output products using the generate_target or synth_ip command before running synth_design.
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci
+
+WARNING: [Vivado_Tcl 4-391] The following IPs are missing output products for Implementation target. These output products could be required for synthesis, please generate the output products using the generate_target or synth_ip command before running synth_design.
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci
+D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci
+
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7360
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1355.332 ; gain = 492.523
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6901] identifier 'multi_active' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:27]
+WARNING: [Synth 8-6901] identifier 'any_mul_div' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:27]
+WARNING: [Synth 8-6901] identifier 'a_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:45]
+WARNING: [Synth 8-6901] identifier 'b_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:45]
+WARNING: [Synth 8-6901] identifier 'b_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:46]
+WARNING: [Synth 8-6901] identifier 'a_latched' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:46]
+INFO: [Synth 8-11241] undeclared symbol 'wb_rf_we', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:148]
+INFO: [Synth 8-11241] undeclared symbol 'wb_rf_wR', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:149]
+INFO: [Synth 8-11241] undeclared symbol 'wb_rf_wD', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:150]
+INFO: [Synth 8-11241] undeclared symbol 'ex_mem_rd', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:348]
+INFO: [Synth 8-11241] undeclared symbol 'ex_mem_rf_we', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:349]
+INFO: [Synth 8-11241] undeclared symbol 'mem_wb_rd', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:350]
+INFO: [Synth 8-11241] undeclared symbol 'mem_wb_rf_we', assumed default net type 'wire' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:351]
+WARNING: [Synth 8-8895] 'ex_mem_rf_we' is already implicitly declared on line 349 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:429]
+WARNING: [Synth 8-8895] 'ex_mem_rd' is already implicitly declared on line 348 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:433]
+WARNING: [Synth 8-8895] 'mem_wb_rf_we' is already implicitly declared on line 351 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:532]
+WARNING: [Synth 8-8895] 'mem_wb_rd' is already implicitly declared on line 350 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:534]
+WARNING: [Synth 8-8895] 'wb_rf_we' is already implicitly declared on line 148 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:602]
+WARNING: [Synth 8-8895] 'wb_rf_wR' is already implicitly declared on line 149 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:603]
+WARNING: [Synth 8-8895] 'wb_rf_wD' is already implicitly declared on line 150 [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:604]
+WARNING: [Synth 8-6901] identifier 'flush_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:45]
+WARNING: [Synth 8-6901] identifier 'flush_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:54]
+WARNING: [Synth 8-6901] identifier 'pc_next' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:55]
+WARNING: [Synth 8-6901] identifier 'stall_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:56]
+WARNING: [Synth 8-6901] identifier 'flush_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:79]
+WARNING: [Synth 8-6901] identifier 'stall_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:84]
+WARNING: [Synth 8-6901] identifier 'flush_d' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:206]
+WARNING: [Synth 8-6901] identifier 'stall_d' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:220]
+WARNING: [Synth 8-6901] identifier 'id_fwd_rd1' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:223]
+WARNING: [Synth 8-6901] identifier 'id_store_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:224]
+WARNING: [Synth 8-6901] identifier 'ex_br' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:261]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:266]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:272]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:273]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:285]
+WARNING: [Synth 8-6901] identifier 'stall_f' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:301]
+WARNING: [Synth 8-6901] identifier 'mul_div_release' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:313]
+WARNING: [Synth 8-6901] identifier 'ex_mul_div_busy' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:317]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:359]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:361]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:363]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:367]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:369]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:371]
+WARNING: [Synth 8-6901] identifier 'ex_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:378]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:380]
+WARNING: [Synth 8-6901] identifier 'ex_mem_rf_wsel' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:388]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:388]
+WARNING: [Synth 8-6901] identifier 'ex_mem_rf_wsel' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:389]
+WARNING: [Synth 8-6901] identifier 'ex_mem_ext' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:389]
+WARNING: [Synth 8-6901] identifier 'ex_mem_alu_c' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:390]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:395]
+WARNING: [Synth 8-6901] identifier 'wb_forward_data' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:401]
+WARNING: [Synth 8-6901] identifier 'O_WID' is used before its declaration [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:11]
+INFO: [Synth 8-6157] synthesizing module 'miniRV_SoC' [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-4304-LAPTOP-1C1u4O/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-4304-LAPTOP-1C1u4O/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_top' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_top.v:5]
+INFO: [Synth 8-6157] synthesizing module 'cpu_core' [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [D:/cpu-design/miniRV-with-SoC/src/rtl/Controller.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/Controller.v:5]
+INFO: [Synth 8-6157] synthesizing module 'RF' [D:/cpu-design/miniRV-with-SoC/src/rtl/RF.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'RF' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/RF.v:3]
+INFO: [Synth 8-6157] synthesizing module 'SEXT' [D:/cpu-design/miniRV-with-SoC/src/rtl/SEXT.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'SEXT' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/SEXT.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ForwardingUnit' [D:/cpu-design/miniRV-with-SoC/src/rtl/ForwardingUnit.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ForwardingUnit' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/ForwardingUnit.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:5]
+INFO: [Synth 8-6157] synthesizing module 'multiplier' [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'multiplier' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+INFO: [Synth 8-6157] synthesizing module 'multiplier__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+	Parameter WIDTH bound to: 33 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'multiplier__parameterized0' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/multiplier.v:3]
+WARNING: [Synth 8-689] width (64) of port connection 'z' does not match port width (66) of module 'multiplier__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:129]
+INFO: [Synth 8-6157] synthesizing module 'divider' [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'divider' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+INFO: [Synth 8-6157] synthesizing module 'divider__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+	Parameter WIDTH bound to: 33 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'divider__parameterized0' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/divider.v:3]
+WARNING: [Synth 8-689] width (32) of port connection 'z' does not match port width (33) of module 'divider__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:150]
+WARNING: [Synth 8-689] width (32) of port connection 'r' does not match port width (33) of module 'divider__parameterized0' [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:151]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/ALU.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MREQ' [D:/cpu-design/miniRV-with-SoC/src/rtl/MREQ.v:5]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/cpu-design/miniRV-with-SoC/src/rtl/MREQ.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'MREQ' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/MREQ.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MEXT' [D:/cpu-design/miniRV-with-SoC/src/rtl/MEXT.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MEXT' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/MEXT.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_core' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_core.v:5]
+INFO: [Synth 8-6157] synthesizing module 'DCache' [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:10]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:59]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-4304-LAPTOP-1C1u4O/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-4304-LAPTOP-1C1u4O/realtime/blk_mem_gen_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'ena' of module 'blk_mem_gen_1' is unconnected for instance 'U_dsram' [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:88]
+WARNING: [Synth 8-7023] instance 'U_dsram' of module 'blk_mem_gen_1' has 6 connections declared, but only 5 given [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'DCache' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/DCache.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ICache' [D:/cpu-design/miniRV-with-SoC/src/rtl/ICache.v:9]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [D:/cpu-design/miniRV-with-SoC/src/rtl/ICache.v:30]
+WARNING: [Synth 8-7071] port 'ena' of module 'blk_mem_gen_1' is unconnected for instance 'U_isram' [D:/cpu-design/miniRV-with-SoC/src/rtl/ICache.v:60]
+WARNING: [Synth 8-7023] instance 'U_isram' of module 'blk_mem_gen_1' has 6 connections declared, but only 5 given [D:/cpu-design/miniRV-with-SoC/src/rtl/ICache.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'ICache' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/ICache.v:9]
+INFO: [Synth 8-6157] synthesizing module 'axi_master' [D:/cpu-design/miniRV-with-SoC/src/rtl/axi_master.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'axi_master' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/axi_master.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_top' (0#1) [D:/cpu-design/miniRV-with-SoC/src/rtl/cpu_top.v:5]
+INFO: [Synth 8-6157] synthesizing module 'bram_axi' [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-4304-LAPTOP-1C1u4O/realtime/bram_axi_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bram_axi' (0#1) [D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/.Xil/Vivado-4304-LAPTOP-1C1u4O/realtime/bram_axi_stub.v:6]
+WARNING: [Synth 8-7071] port 's_axi_bid' of module 'bram_axi' is unconnected for instance 'U_bram' [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:290]
+WARNING: [Synth 8-7071] port 's_axi_rid' of module 'bram_axi' is unconnected for instance 'U_bram' [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:290]
+WARNING: [Synth 8-7023] instance 'U_bram' of module 'bram_axi' has 31 connections declared, but only 29 given [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:290]
+ERROR: [Synth 8-439] module 'axi_crossbar_0' not found [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:385]
+ERROR: [Synth 8-6156] failed synthesizing module 'miniRV_SoC' [D:/cpu-design/miniRV-with-SoC/src/rtl/miniRV_SoC.v:5]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1469.246 ; gain = 606.438
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 61 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 29 10:34:58 2026...

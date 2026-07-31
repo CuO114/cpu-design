@@ -1,11 +1,11 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
--- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+-- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
--- Date        : Mon Jul 13 15:03:08 2026
--- Host        : foreshadow running 64-bit major release  (build 9200)
+-- Tool Version: Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+-- Date        : Mon Jul 20 10:47:25 2026
+-- Host        : LAPTOP-1C1u4O running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               d:/users/acad/2026.3/CPU/cpu-design/miniRV/miniRV.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl
+--               d:/cpu-design/miniRV/miniRV.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl
 -- Design      : clk_wiz_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.

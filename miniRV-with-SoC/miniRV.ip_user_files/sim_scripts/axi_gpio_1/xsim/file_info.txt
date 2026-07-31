@@ -1,0 +1,2 @@
+axi_gpio_1.vhd,vhdl,xil_defaultlib,../../../../src/rtl/ip/axi_gpio_1/sim/axi_gpio_1.vhd,incdir="../../../../../../vivado/2025.1/Vivado/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v
