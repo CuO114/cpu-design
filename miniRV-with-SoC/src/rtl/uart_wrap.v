@@ -132,6 +132,7 @@ axi_protocol_converter_0 U_uart_converter (
     .s_axi_rready  (s_axi_rready),
 
     .m_axi_awaddr  (uart_awaddr),
+    .m_axi_awprot  (),
     .m_axi_awvalid (uart_awvalid),
     .m_axi_awready (uart_awready),
     .m_axi_wdata   (uart_wdata),
@@ -142,6 +143,7 @@ axi_protocol_converter_0 U_uart_converter (
     .m_axi_bvalid  (uart_bvalid),
     .m_axi_bready  (uart_bready),
     .m_axi_araddr  (uart_araddr),
+    .m_axi_arprot  (),
     .m_axi_arvalid (uart_arvalid),
     .m_axi_arready (uart_arready),
     .m_axi_rdata   (uart_rdata),

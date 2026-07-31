@@ -1,0 +1,2015 @@
+SEED4_INIT=0000000a
+STORE cycle=75 addr=ffff300c strb=f data=00000003
+STACKSTORE cycle=172 addr=000257fc strb=f data=00000018
+STACKSTORE cycle=186 addr=000257f8 strb=f data=00000000
+STACKSTORE cycle=200 addr=000257f4 strb=f data=00000000
+STACKSTORE cycle=214 addr=000257f0 strb=f data=00000000
+STACKSTORE cycle=228 addr=000257ec strb=f data=00000000
+STACKSTORE cycle=242 addr=000257e8 strb=f data=00000000
+STACKSTORE cycle=256 addr=000257e4 strb=f data=00000000
+STACKSTORE cycle=270 addr=000257e0 strb=f data=00000000
+STACKSTORE cycle=284 addr=000257dc strb=f data=00000000
+STACKSTORE cycle=298 addr=000257d8 strb=f data=00000000
+STACKSTORE cycle=312 addr=000257d4 strb=f data=00000000
+STACKSTORE cycle=326 addr=000257d0 strb=f data=00000000
+STACKSTORE cycle=340 addr=000257cc strb=f data=00000000
+STACKSTORE cycle=354 addr=00025774 strb=f data=00000000
+STACKSTORE cycle=409 addr=0002576c strb=f data=00007144
+STACKSTORE cycle=451 addr=00025768 strb=f data=00000000
+STACKSTORE cycle=465 addr=00025764 strb=f data=00000000
+STACKSTORE cycle=589 addr=00025760 strb=f data=00000000
+STACKSTORE cycle=603 addr=0002575c strb=f data=00000000
+STACKSTORE cycle=617 addr=00025758 strb=f data=00000000
+STACKSTORE cycle=631 addr=00025754 strb=f data=00000000
+STACKSTORE cycle=645 addr=00025750 strb=f data=00000000
+STACKSTORE cycle=817 addr=0002574c strb=f data=00000000
+STACKSTORE cycle=998 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=1012 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=1026 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=1040 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=1054 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=1068 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=1969 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=1997 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=2011 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=2025 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=2053 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=2067 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=2081 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=3877 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=3905 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=3919 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=3933 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=3961 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=3975 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=3989 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=6491 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=6505 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=6519 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=6533 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=6547 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=6561 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=7462 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=7490 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=7504 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=7518 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=7546 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=7560 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=7574 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=9370 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=9398 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=9412 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=9426 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=9454 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=9468 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=9482 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=12040 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=12054 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=12068 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=12082 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=12096 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=12110 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=13011 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=13039 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=13053 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=13067 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=13095 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=13109 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=13123 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=14919 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=14947 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=14961 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=14975 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=15003 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=15017 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=15031 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=17533 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=17547 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=17561 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=17575 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=17589 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=17603 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=18504 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=18532 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=18546 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=18560 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=18588 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=18602 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=18616 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=20437 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=20465 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=20479 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=20493 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=20521 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=20535 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=20549 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=23160 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=23174 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=23188 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=23202 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=23216 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=23230 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=24131 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=24159 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=24173 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=24187 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=24215 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=24229 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=24243 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=26039 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=26067 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=26081 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=26095 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=26123 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=26137 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=26151 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=28653 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=28667 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=28681 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=28695 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=28709 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=28723 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=29624 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=29652 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=29666 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=29680 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=29708 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=29722 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=29736 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=31532 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=31560 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=31574 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=31588 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=31616 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=31630 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=31644 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=34199 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=34213 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=34227 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=34241 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=34255 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=34269 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=35170 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=35198 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=35212 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=35226 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=35254 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=35268 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=35282 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=37103 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=37131 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=37145 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=37159 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=37187 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=37201 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=37215 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=39770 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=39784 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=39798 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=39812 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=39826 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=39840 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=40741 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=40769 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=40783 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=40797 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=40825 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=40839 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=40853 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=42649 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=42677 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=42691 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=42705 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=42733 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=42747 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=42761 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=45263 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=45277 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=45291 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=45305 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=45319 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=45333 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=46234 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=46262 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=46276 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=46290 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=46318 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=46332 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=46346 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=48142 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=48170 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=48184 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=48198 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=48226 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=48240 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=48254 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=50756 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=50770 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=50784 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=50798 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=50812 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=50826 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=51727 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=51755 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=51769 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=51783 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=51811 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=51825 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=51839 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=53635 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=53663 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=53677 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=53691 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=53719 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=53733 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=53747 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=56249 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=56263 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=56277 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=56291 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=56305 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=56319 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=57220 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=57248 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=57262 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=57276 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=57304 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=57318 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=57332 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=59128 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=59156 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=59170 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=59184 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=59212 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=59226 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=59240 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=61795 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=61809 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=61823 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=61837 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=61851 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=61865 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=62766 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=62794 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=62808 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=62822 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=62850 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=62864 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=62878 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=64674 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=64702 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=64716 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=64730 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=64758 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=64772 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=64786 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=67341 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=67355 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=67369 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=67383 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=67397 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=67411 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=68364 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=68392 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=68406 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=68420 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=68448 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=68462 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=68476 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=70297 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=70325 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=70339 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=70353 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=70381 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=70395 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=70409 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=72964 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=72978 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=72992 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=73006 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=73020 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=73034 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=73987 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=74015 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=74029 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=74043 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=74071 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=74085 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=74099 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=75895 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=75923 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=75937 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=75951 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=75979 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=75993 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=76007 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=78509 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=78523 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=78537 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=78551 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=78565 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=78579 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=79532 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=79560 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=79574 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=79588 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=79616 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=79630 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=79644 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=81440 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=81468 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=81482 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=81496 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=81524 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=81538 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=81552 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=84054 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=84068 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=84082 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=84096 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=84110 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=84124 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=85077 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=85105 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=85119 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=85133 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=85161 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=85175 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=85189 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=86985 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=87013 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=87027 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=87041 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=87069 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=87083 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=87097 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=89599 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=89613 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=89627 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=89641 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=89655 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=89669 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=90622 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=90650 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=90664 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=90678 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=90706 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=90720 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=90734 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=92530 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=92558 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=92572 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=92586 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=92614 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=92628 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=92642 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=95144 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=95158 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=95172 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=95186 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=95200 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=95214 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=96167 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=96195 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=96209 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=96223 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=96251 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=96265 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=96279 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=98075 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=98103 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=98117 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=98131 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=98159 addr=0002573c strb=f data=00000214
+STACKSTORE cycle=98173 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=98187 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=100689 addr=0002573c strb=f data=00000204
+STACKSTORE cycle=100703 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=100717 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=100731 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=100745 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=100759 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=101712 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=101740 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=101754 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=101768 addr=00025728 strb=f data=00000000
+STACKSTORE cycle=101796 addr=0002573c strb=f data=0000020c
+STACKSTORE cycle=101810 addr=00025738 strb=f data=ffff4008
+STACKSTORE cycle=101824 addr=00025724 strb=f data=447a0000
+STACKSTORE cycle=103620 addr=00025734 strb=f data=ffff4000
+STACKSTORE cycle=103648 addr=00025730 strb=f data=42c80000
+STACKSTORE cycle=103662 addr=0002572c strb=f data=4c3ebc20
+STACKSTORE cycle=103676 addr=00025728 strb=f data=00000000
+PROBE cycle=1000000 pc=00005464 if_id=00000000 ex_mem=00005464 rstate=2 wstate=0 arvalid=0 rvalid=0 awvalid=0 wvalid=0 bvalid=0 x16=00000000 x17=00000000 x18=00000000 x20=00000000 x21=00000000 x22=000002be
+WBTRACE cycle=5001113 pc=00005cf0 rd=20 data=00000000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5001376 pc=00005890 rd=20 data=447a0000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5001516 pc=000058b8 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5001586 pc=000058cc rd=20 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5003017 pc=00005b58 rd=20 data=00000000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5003051 pc=00005b5c rd=21 data=447a0000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5003314 pc=000053f4 rd=20 data=4c3ebc20 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5003454 pc=0000541c rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5003524 pc=00005430 rd=20 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5004976 pc=00005624 rd=20 data=00000000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5005010 pc=00005628 rd=21 data=447a0000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5006768 pc=00005cf0 rd=20 data=00000000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5007031 pc=00005890 rd=20 data=447a0000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5007171 pc=000058b8 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5007241 pc=000058cc rd=20 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5008672 pc=00005b58 rd=20 data=00000000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5008706 pc=00005b5c rd=21 data=447a0000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5008969 pc=000053f4 rd=20 data=4c3ebc20 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5009109 pc=0000541c rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5009179 pc=00005430 rd=20 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5010631 pc=00005624 rd=20 data=00000000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5010665 pc=00005628 rd=21 data=447a0000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5011704 pc=000003d0 rd=21 data=0000d000 wsel=3 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5012212 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5012226 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+CSTORE cycle=5012242 addr=ffff3004 strb=f data=00000043
+WBTRACE cycle=5012494 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5012508 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+oSTORE cycle=5012524 addr=ffff3004 strb=f data=0000006f
+WBTRACE cycle=5012776 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5012790 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+rSTORE cycle=5012806 addr=ffff3004 strb=f data=00000072
+WBTRACE cycle=5013058 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5013072 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+eSTORE cycle=5013088 addr=ffff3004 strb=f data=00000065
+WBTRACE cycle=5013340 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5013354 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+MSTORE cycle=5013370 addr=ffff3004 strb=f data=0000004d
+WBTRACE cycle=5013622 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5013636 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+aSTORE cycle=5013652 addr=ffff3004 strb=f data=00000061
+WBTRACE cycle=5013904 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5013918 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+rSTORE cycle=5013934 addr=ffff3004 strb=f data=00000072
+WBTRACE cycle=5014186 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5014200 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+kSTORE cycle=5014216 addr=ffff3004 strb=f data=0000006b
+WBTRACE cycle=5014468 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5014482 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+ STORE cycle=5014498 addr=ffff3004 strb=f data=00000020
+WBTRACE cycle=5014750 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5014764 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+1STORE cycle=5014780 addr=ffff3004 strb=f data=00000031
+WBTRACE cycle=5015032 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5015046 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+.STORE cycle=5015062 addr=ffff3004 strb=f data=0000002e
+WBTRACE cycle=5015314 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5015328 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+0STORE cycle=5015344 addr=ffff3004 strb=f data=00000030
+WBTRACE cycle=5015596 pc=0000044c rd=21 data=ffff3004 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5015610 pc=00000450 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+
+STORE cycle=5015626 addr=ffff3004 strb=f data=0000000a
+STORE cycle=5015724 addr=ffff3004 strb=f data=0000000d
+WBTRACE cycle=5016054 pc=000004d8 rd=20 data=00000000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5016088 pc=000004dc rd=21 data=447a0000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5016680 pc=00000248 rd=20 data=00000000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5016714 pc=0000024c rd=21 data=00000000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+RESULTSTORE cycle=5017167 addr=0002577c strb=3 data=00000000
+RESULTSTORE cycle=5017482 addr=0002577c strb=c data=00000000
+RESULTSTORE cycle=5017797 addr=00025780 strb=3 data=00000066
+RESULTSTORE cycle=5018112 addr=00025798 strb=f data=0000000a
+RESULTSTORE cycle=5018440 addr=0002579c strb=f data=00000007
+WBTRACE cycle=5018643 pc=000071bc rd=20 data=00000001 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5018685 pc=000071c8 rd=21 data=0000d000 wsel=3 ramrop=0 addr=00000000 ren=0 rvalid=0
+RESULTSTORE cycle=5018743 addr=00025784 strb=f data=0000d158
+RESULTSTORE cycle=5020838 addr=00025794 strb=f data=0000029a
+RESULTSTORE cycle=5020920 addr=00025788 strb=f data=0000d158
+RESULTSTORE cycle=5022181 addr=0002578c strb=f data=0000d3f2
+RESULTSTORE cycle=5023442 addr=00025790 strb=f data=0000d68c
+WBTRACE cycle=5043723 pc=00000de4 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5043963 pc=00000ee8 rd=20 data=0000d158 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5044655 pc=00000f5c rd=20 data=0000d240 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5044736 pc=00000f48 rd=21 data=0000d158 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5045283 pc=00000ee8 rd=20 data=0000d238 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5045975 pc=00000f5c rd=20 data=0000d230 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5046550 pc=00000ee8 rd=20 data=0000d228 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5047242 pc=00000f5c rd=20 data=0000d220 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5047817 pc=00000ee8 rd=20 data=0000d218 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5048667 pc=00000f5c rd=20 data=0000d210 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5049070 pc=00000ee8 rd=20 data=0000d208 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5049762 pc=00000f5c rd=20 data=0000d200 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5050337 pc=00000ee8 rd=20 data=0000d1f8 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5051029 pc=00000f5c rd=20 data=0000d1f0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5051604 pc=00000ee8 rd=20 data=0000d1e8 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5052296 pc=00000f5c rd=20 data=0000d1e0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5052871 pc=00000ee8 rd=20 data=0000d1d8 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5053721 pc=00000f5c rd=20 data=0000d1d0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5054124 pc=00000ee8 rd=20 data=0000d1c8 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5054816 pc=00000f5c rd=20 data=0000d1c0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5055391 pc=00000ee8 rd=20 data=0000d1b8 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5056083 pc=00000f5c rd=20 data=0000d1b0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5056658 pc=00000ee8 rd=20 data=0000d1a8 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5057350 pc=00000f5c rd=20 data=0000d1a0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5057925 pc=00000ee8 rd=20 data=0000d198 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5058775 pc=00000f5c rd=20 data=0000d190 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5059178 pc=00000ee8 rd=20 data=0000d188 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5059870 pc=00000f5c rd=20 data=0000d180 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5060445 pc=00000ee8 rd=20 data=0000d178 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5061137 pc=00000f5c rd=20 data=0000d170 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5061712 pc=00000ee8 rd=20 data=0000d168 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5062404 pc=00000f5c rd=20 data=0000d160 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5062852 pc=00000de4 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5063182 pc=00000ee8 rd=20 data=0000d158 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5063874 pc=00000f5c rd=20 data=0000d240 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5063955 pc=00000f48 rd=21 data=0000d158 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5064686 pc=00000f5c rd=20 data=0000d238 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5065523 pc=00000ee8 rd=20 data=0000d228 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5066215 pc=00000f5c rd=20 data=0000d220 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5066974 pc=00000f5c rd=20 data=0000d210 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5067811 pc=00000ee8 rd=20 data=0000d208 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5068503 pc=00000f5c rd=20 data=0000d200 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5069262 pc=00000f5c rd=20 data=0000d1f8 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5070099 pc=00000ee8 rd=20 data=0000d1e8 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5071497 pc=00000f5c rd=20 data=0000d1e0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5072256 pc=00000f5c rd=20 data=0000d1d0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5072921 pc=00000ee8 rd=20 data=0000d1c8 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5073613 pc=00000f5c rd=20 data=0000d1c0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5074372 pc=00000f5c rd=20 data=0000d1b8 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5075209 pc=00000ee8 rd=20 data=0000d1a8 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5076607 pc=00000f5c rd=20 data=0000d1a0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5077366 pc=00000f5c rd=20 data=0000d190 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5078031 pc=00000ee8 rd=20 data=0000d188 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5078723 pc=00000f5c rd=20 data=0000d180 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5079482 pc=00000f5c rd=20 data=0000d178 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5080305 pc=00000ee8 rd=20 data=0000d168 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5080463 pc=00000f5c rd=20 data=0000d160 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5080688 pc=00000f5c rd=20 data=00000000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5080964 pc=00000de4 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5081474 pc=00000ee8 rd=20 data=0000d158 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5082166 pc=00000f5c rd=20 data=0000d240 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5082247 pc=00000f48 rd=21 data=0000d158 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5082978 pc=00000f5c rd=20 data=0000d238 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5083737 pc=00000f5c rd=20 data=0000d230 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5084496 pc=00000f5c rd=20 data=0000d228 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5085857 pc=00000ee8 rd=20 data=0000d208 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5087255 pc=00000f5c rd=20 data=0000d200 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5088014 pc=00000f5c rd=20 data=0000d1f8 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5088773 pc=00000f5c rd=20 data=0000d1f0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5089532 pc=00000f5c rd=20 data=0000d1d0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5090721 pc=00000ee8 rd=20 data=0000d1c8 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5092119 pc=00000f5c rd=20 data=0000d1c0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5092878 pc=00000f5c rd=20 data=0000d1b8 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5093637 pc=00000f5c rd=20 data=0000d1b0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5094396 pc=00000f5c rd=20 data=0000d190 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5095585 pc=00000ee8 rd=20 data=0000d188 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5096277 pc=00000f5c rd=20 data=0000d180 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5097036 pc=00000f5c rd=20 data=0000d178 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5097795 pc=00000f5c rd=20 data=0000d170 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5098554 pc=00000f5c rd=20 data=0000d168 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5099174 pc=00000de4 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5099860 pc=00000ee8 rd=20 data=0000d158 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5100552 pc=00000f5c rd=20 data=0000d240 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5100633 pc=00000f48 rd=21 data=0000d158 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5101364 pc=00000f5c rd=20 data=0000d238 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5102123 pc=00000f5c rd=20 data=0000d230 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5102882 pc=00000f5c rd=20 data=0000d228 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5103641 pc=00000f5c rd=20 data=0000d220 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5104400 pc=00000f5c rd=20 data=0000d210 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5105159 pc=00000f5c rd=20 data=0000d218 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5110860 pc=00000f5c rd=20 data=0000d1d0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5111881 pc=00000ee8 rd=20 data=0000d190 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5112573 pc=00000f5c rd=20 data=0000d1c8 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5113332 pc=00000f5c rd=20 data=0000d1c0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5114797 pc=00000f5c rd=20 data=0000d1b8 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5116262 pc=00000f5c rd=20 data=0000d1b0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5117727 pc=00000f5c rd=20 data=0000d1a8 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5119192 pc=00000f5c rd=20 data=0000d1a0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5120657 pc=00000f5c rd=20 data=0000d198 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5121416 pc=00000f5c rd=20 data=0000d188 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5121864 pc=00000de4 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5123100 pc=00000ee8 rd=20 data=0000d158 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5123792 pc=00000f5c rd=20 data=0000d240 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5123873 pc=00000f48 rd=21 data=0000d158 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5124604 pc=00000f5c rd=20 data=0000d238 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5125363 pc=00000f5c rd=20 data=0000d230 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5126122 pc=00000f5c rd=20 data=0000d228 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5126881 pc=00000f5c rd=20 data=0000d220 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5127640 pc=00000f5c rd=20 data=0000d210 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5128399 pc=00000f5c rd=20 data=0000d1d0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5129158 pc=00000f5c rd=20 data=0000d208 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5130623 pc=00000f5c rd=20 data=0000d200 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5132794 pc=00000f5c rd=20 data=0000d1f8 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5134965 pc=00000f5c rd=20 data=0000d1f0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5137136 pc=00000f5c rd=20 data=0000d1e8 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5139307 pc=00000f5c rd=20 data=0000d1e0 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5141478 pc=00000f5c rd=20 data=0000d218 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5142943 pc=00000f5c rd=20 data=0000d1d8 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5143702 pc=00000f5c rd=20 data=0000d190 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5144441 pc=00000f98 rd=20 data=00000001 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5144659 pc=00000fb4 rd=21 data=0000d000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5151048 pc=000016d8 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5151062 pc=000016dc rd=20 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5157255 pc=0000186c rd=20 data=00000001 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5157283 pc=00001874 rd=21 data=00000009 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5164993 pc=0000186c rd=20 data=00000002 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5165021 pc=00001874 rd=21 data=00000012 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5173390 pc=0000186c rd=20 data=00000003 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5173418 pc=00001874 rd=21 data=0000001b wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5182331 pc=0000186c rd=20 data=00000004 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5182359 pc=00001874 rd=21 data=00000024 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5191711 pc=0000186c rd=20 data=00000005 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5191739 pc=00001874 rd=21 data=0000002d wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5201094 pc=0000186c rd=20 data=00000006 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5201122 pc=00001874 rd=21 data=00000036 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5210486 pc=0000186c rd=20 data=00000007 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5210514 pc=00001874 rd=21 data=0000003f wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5220840 pc=0000186c rd=20 data=00000008 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5220868 pc=00001874 rd=21 data=00000048 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5231203 pc=0000186c rd=20 data=00000009 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5231231 pc=00001874 rd=21 data=00000051 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5231279 pc=0000187c rd=21 data=0000d496 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5231313 pc=00001880 rd=20 data=000000a2 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5231731 pc=000018c4 rd=20 data=00000001 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5231765 pc=000018c8 rd=21 data=0000d000 wsel=1 ramrop=1 addr=00000000 ren=0 rvalid=0
+STATEWB cycle=5296601 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+WBTRACE cycle=5297924 pc=00001004 rd=20 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5301774 pc=00001054 rd=21 data=00010000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5302230 pc=00001004 rd=20 data=00000001 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5310292 pc=00001054 rd=21 data=00020000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5310704 pc=00001004 rd=20 data=00000002 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5314554 pc=00001054 rd=21 data=00030000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5315010 pc=00001004 rd=20 data=00000003 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5322916 pc=00001054 rd=21 data=00040000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5323328 pc=00001004 rd=20 data=00000004 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5327178 pc=00001054 rd=21 data=00050000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5327634 pc=00001004 rd=20 data=00000005 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5336027 pc=00001224 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5336248 pc=00001004 rd=20 data=00000006 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5340410 pc=00001054 rd=21 data=00060000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5340866 pc=00001004 rd=20 data=00000007 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5349259 pc=00001224 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5349480 pc=00001004 rd=20 data=00000008 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5357873 pc=00001224 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5358094 pc=00001004 rd=20 data=00000009 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5366487 pc=00001224 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5366708 pc=00001004 rd=20 data=0000000a wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5375101 pc=00001224 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5375322 pc=00001004 rd=20 data=0000000b wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5383715 pc=00001224 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5383936 pc=00001004 rd=20 data=0000000c wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5392329 pc=00001224 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5392550 pc=00001004 rd=20 data=0000000d wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5400943 pc=00001224 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5401164 pc=00001004 rd=20 data=0000000e wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5405326 pc=00001054 rd=21 data=00070000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5405782 pc=00001004 rd=20 data=0000000f wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5414175 pc=00001224 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5414396 pc=00001004 rd=20 data=00000010 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5422789 pc=00001224 rd=21 data=00000001 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5423010 pc=00001004 rd=20 data=00000011 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5431403 pc=00001224 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5431624 pc=00001004 rd=20 data=00000012 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5440017 pc=00001224 rd=21 data=00000001 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5440238 pc=00001004 rd=20 data=00000013 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+WBTRACE cycle=5448631 pc=00001224 rd=21 data=00000000 wsel=0 ramrop=0 addr=00000000 ren=0 rvalid=0
+CALLWB cycle=6152196 pc=00000ad8 rd=2 data=000256d0 wsel=0 ramrop=0
+CALLLOAD cycle=6152223 pc=00000ae0 addr=0000d2b4 ren=f exmem_rd=8
+CALLWB cycle=6152244 pc=00000ae0 rd=8 data=00003f3f wsel=1 ramrop=4
+CALLWB cycle=6152286 pc=00000aec rd=15 data=0000007e wsel=0 ramrop=0
+CALLWB cycle=6152328 pc=00000af8 rd=1 data=00000000 wsel=0 ramrop=0
+CALLWB cycle=6152382 pc=00000b20 rd=9 data=0002577c wsel=0 ramrop=0
+CALLWB cycle=6152396 pc=00000b24 rd=11 data=000007e7 wsel=0 ramrop=0
+CALLWB cycle=6152410 pc=00000b28 rd=5 data=00000007 wsel=0 ramrop=0
+CALLWB cycle=6152424 pc=00000b2c rd=14 data=00000070 wsel=0 ramrop=0
+CALLWB cycle=6152438 pc=00000b30 rd=13 data=00000007 wsel=0 ramrop=0
+CALLLOAD cycle=6152451 pc=00000b34 addr=000257b4 ren=f exmem_rd=15
+CALLWB cycle=6152472 pc=00000b34 rd=15 data=00000000 wsel=1 ramrop=5
+CALLWB cycle=6152486 pc=00000b38 rd=19 data=0000d2b4 wsel=0 ramrop=0
+CALLWB cycle=6152500 pc=00000b3c rd=11 data=00000077 wsel=0 ramrop=0
+CALLWB cycle=6152528 pc=00000b44 rd=10 data=00000001 wsel=0 ramrop=0
+CALLWB cycle=6152556 pc=00000b4c rd=28 data=3f3f0000 wsel=0 ramrop=0
+CALLWB cycle=6152570 pc=00000b50 rd=10 data=00003f3f wsel=0 ramrop=0
+CALLWB cycle=6152584 pc=00000b54 rd=18 data=00003f3f wsel=0 ramrop=0
+CALLWB cycle=6152598 pc=00000b58 rd=11 data=00000000 wsel=0 ramrop=0
+CALLWB cycle=6152612 pc=00000b5c rd=1 data=00000b60 wsel=2 ramrop=0
+CALLWB cycle=6154541 pc=00000b60 rd=29 data=0000e051 wsel=0 ramrop=0
+CALLWB cycle=6154555 pc=00000b64 rd=30 data=00003f00 wsel=0 ramrop=0
+CALLWB cycle=6154569 pc=00000b68 rd=10 data=0000003f wsel=0 ramrop=0
+CALLWB cycle=6154583 pc=00000b6c rd=31 data=00003f3f wsel=0 ramrop=0
+CALLWB cycle=6154611 pc=00000b74 rd=8 data=00003fbf wsel=0 ramrop=0
+CALLLOAD cycle=6154638 pc=00000b7c addr=000256ec ren=f exmem_rd=1
+CALLWB cycle=6154659 pc=00000b7c rd=1 data=00000c2c wsel=1 ramrop=1
+CALLLOAD cycle=6154672 pc=00000b80 addr=000256e8 ren=f exmem_rd=8
+CALLWB cycle=6154693 pc=00000b80 rd=8 data=0002577c wsel=1 ramrop=1
+CALLLOAD cycle=6154706 pc=00000b84 addr=000256e4 ren=f exmem_rd=9
+CALLWB cycle=6154727 pc=00000b84 rd=9 data=0000d2c0 wsel=1 ramrop=1
+CALLLOAD cycle=6154740 pc=00000b88 addr=000256e0 ren=f exmem_rd=18
+CALLWB cycle=6154761 pc=00000b88 rd=18 data=00000001 wsel=1 ramrop=1
+CALLLOAD cycle=6154774 pc=00000b8c addr=000256dc ren=f exmem_rd=19
+CALLWB cycle=6154795 pc=00000b8c rd=19 data=00000001 wsel=1 ramrop=1
+CALLWB cycle=6154809 pc=00000b90 rd=2 data=000256f0 wsel=0 ramrop=0
+CALLWB cycle=6154823 pc=00000b94 rd=0 data=00000b98 wsel=2 ramrop=0
+CALLWB cycle=6154946 pc=00000ad8 rd=2 data=000256d0 wsel=0 ramrop=0
+CALLLOAD cycle=6154973 pc=00000ae0 addr=0000d2c0 ren=f exmem_rd=8
+CALLWB cycle=6154994 pc=00000ae0 rd=8 data=00005252 wsel=1 ramrop=4
+CALLWB cycle=6155036 pc=00000aec rd=15 data=000000a4 wsel=0 ramrop=0
+CALLWB cycle=6155078 pc=00000af8 rd=1 data=00000000 wsel=0 ramrop=0
+CALLWB cycle=6155132 pc=00000b20 rd=9 data=0002577c wsel=0 ramrop=0
+CALLWB cycle=6155146 pc=00000b24 rd=11 data=00000a4a wsel=0 ramrop=0
+CALLWB cycle=6155160 pc=00000b28 rd=5 data=0000000a wsel=0 ramrop=0
+CALLWB cycle=6155174 pc=00000b2c rd=14 data=000000a0 wsel=0 ramrop=0
+CALLWB cycle=6155188 pc=00000b30 rd=13 data=00000002 wsel=0 ramrop=0
+CALLLOAD cycle=6155201 pc=00000b34 addr=000257b4 ren=f exmem_rd=15
+CALLWB cycle=6155222 pc=00000b34 rd=15 data=0000e051 wsel=1 ramrop=5
+CALLWB cycle=6155236 pc=00000b38 rd=19 data=0000d2c0 wsel=0 ramrop=0
+CALLWB cycle=6155250 pc=00000b3c rd=11 data=000000aa wsel=0 ramrop=0
+CALLWB cycle=6155278 pc=00000b44 rd=10 data=00000001 wsel=0 ramrop=0
+CALLWB cycle=6155306 pc=00000b4c rd=28 data=52520000 wsel=0 ramrop=0
+CALLWB cycle=6155320 pc=00000b50 rd=10 data=00005252 wsel=0 ramrop=0
+CALLWB cycle=6155334 pc=00000b54 rd=18 data=00005252 wsel=0 ramrop=0
+CALLWB cycle=6155348 pc=00000b58 rd=11 data=0000e051 wsel=0 ramrop=0
+CALLWB cycle=6155362 pc=00000b5c rd=1 data=00000b60 wsel=2 ramrop=0
+CALLWB cycle=6157203 pc=00000b60 rd=29 data=00008580 wsel=0 ramrop=0
+CALLWB cycle=6157217 pc=00000b64 rd=30 data=00005200 wsel=0 ramrop=0
+CALLWB cycle=6157231 pc=00000b68 rd=10 data=00000052 wsel=0 ramrop=0
+CALLWB cycle=6157245 pc=00000b6c rd=31 data=00005252 wsel=0 ramrop=0
+CALLWB cycle=6157273 pc=00000b74 rd=8 data=000052d2 wsel=0 ramrop=0
+CALLLOAD cycle=6157300 pc=00000b7c addr=000256ec ren=f exmem_rd=1
+CALLWB cycle=6157321 pc=00000b7c rd=1 data=00000c40 wsel=1 ramrop=1
+CALLLOAD cycle=6157334 pc=00000b80 addr=000256e8 ren=f exmem_rd=8
+CALLWB cycle=6157355 pc=00000b80 rd=8 data=0000003f wsel=1 ramrop=1
+CALLLOAD cycle=6157368 pc=00000b84 addr=000256e4 ren=f exmem_rd=9
+CALLWB cycle=6157389 pc=00000b84 rd=9 data=0000d2c0 wsel=1 ramrop=1
+CALLLOAD cycle=6157402 pc=00000b88 addr=000256e0 ren=f exmem_rd=18
+CALLWB cycle=6157423 pc=00000b88 rd=18 data=00000001 wsel=1 ramrop=1
+CALLLOAD cycle=6157436 pc=00000b8c addr=000256dc ren=f exmem_rd=19
+CALLWB cycle=6157457 pc=00000b8c rd=19 data=00000001 wsel=1 ramrop=1
+CALLWB cycle=6157471 pc=00000b90 rd=2 data=000256f0 wsel=0 ramrop=0
+CALLWB cycle=6157485 pc=00000b94 rd=0 data=00000b98 wsel=2 ramrop=0
+CALLWB cycle=6158742 pc=00000ad8 rd=2 data=000256d0 wsel=0 ramrop=0
+CALLLOAD cycle=6158769 pc=00000ae0 addr=0000d26c ren=f exmem_rd=8
+CALLWB cycle=6158790 pc=00000ae0 rd=8 data=00002d2d wsel=1 ramrop=4
+CALLWB cycle=6158832 pc=00000aec rd=15 data=0000005a wsel=0 ramrop=0
+CALLWB cycle=6158874 pc=00000af8 rd=1 data=00000000 wsel=0 ramrop=0
+CALLWB cycle=6158928 pc=00000b20 rd=9 data=0002577c wsel=0 ramrop=0
+CALLWB cycle=6158942 pc=00000b24 rd=11 data=000005a5 wsel=0 ramrop=0
+CALLWB cycle=6158956 pc=00000b28 rd=5 data=00000005 wsel=0 ramrop=0
+CALLWB cycle=6158970 pc=00000b2c rd=14 data=00000050 wsel=0 ramrop=0
+CALLWB cycle=6158984 pc=00000b30 rd=13 data=00000005 wsel=0 ramrop=0
+CALLLOAD cycle=6158997 pc=00000b34 addr=000257b4 ren=f exmem_rd=15
+CALLWB cycle=6159018 pc=00000b34 rd=15 data=00008580 wsel=1 ramrop=5
+CALLWB cycle=6159032 pc=00000b38 rd=19 data=0000d26c wsel=0 ramrop=0
+CALLWB cycle=6159046 pc=00000b3c rd=11 data=00000055 wsel=0 ramrop=0
+CALLWB cycle=6159074 pc=00000b44 rd=10 data=00000001 wsel=0 ramrop=0
+CALLWB cycle=6159102 pc=00000b4c rd=28 data=2d2d0000 wsel=0 ramrop=0
+CALLWB cycle=6159116 pc=00000b50 rd=10 data=00002d2d wsel=0 ramrop=0
+CALLWB cycle=6159130 pc=00000b54 rd=18 data=00002d2d wsel=0 ramrop=0
+CALLWB cycle=6159144 pc=00000b58 rd=11 data=00008580 wsel=0 ramrop=0
+CALLWB cycle=6159158 pc=00000b5c rd=1 data=00000b60 wsel=2 ramrop=0
+CALLWB cycle=6161210 pc=00000b60 rd=29 data=00002e7d wsel=0 ramrop=0
+CALLWB cycle=6161224 pc=00000b64 rd=30 data=00002d00 wsel=0 ramrop=0
+CALLWB cycle=6161238 pc=00000b68 rd=10 data=0000002d wsel=0 ramrop=0
+CALLWB cycle=6161252 pc=00000b6c rd=31 data=00002d2d wsel=0 ramrop=0
+CALLWB cycle=6161280 pc=00000b74 rd=8 data=00002dad wsel=0 ramrop=0
+CALLLOAD cycle=6161307 pc=00000b7c addr=000256ec ren=f exmem_rd=1
+CALLWB cycle=6161328 pc=00000b7c rd=1 data=00000c2c wsel=1 ramrop=1
+CALLLOAD cycle=6161341 pc=00000b80 addr=000256e8 ren=f exmem_rd=8
+CALLWB cycle=6161362 pc=00000b80 rd=8 data=0002577c wsel=1 ramrop=1
+CALLLOAD cycle=6161375 pc=00000b84 addr=000256e4 ren=f exmem_rd=9
+CALLWB cycle=6161396 pc=00000b84 rd=9 data=0000d2a8 wsel=1 ramrop=1
+CALLLOAD cycle=6161409 pc=00000b88 addr=000256e0 ren=f exmem_rd=18
+CALLWB cycle=6161430 pc=00000b88 rd=18 data=00000001 wsel=1 ramrop=1
+CALLLOAD cycle=6161443 pc=00000b8c addr=000256dc ren=f exmem_rd=19
+CALLWB cycle=6161464 pc=00000b8c rd=19 data=00000001 wsel=1 ramrop=1
+CALLWB cycle=6161478 pc=00000b90 rd=2 data=000256f0 wsel=0 ramrop=0
+CALLWB cycle=6161492 pc=00000b94 rd=0 data=00000b98 wsel=2 ramrop=0
+CALLWB cycle=6161615 pc=00000ad8 rd=2 data=000256d0 wsel=0 ramrop=0
+CALLLOAD cycle=6161642 pc=00000ae0 addr=0000d2a8 ren=f exmem_rd=8
+CALLWB cycle=6161663 pc=00000ae0 rd=8 data=00002424 wsel=1 ramrop=4
+CALLWB cycle=6161705 pc=00000aec rd=15 data=00000048 wsel=0 ramrop=0
+CALLWB cycle=6161747 pc=00000af8 rd=1 data=00000000 wsel=0 ramrop=0
+CALLWB cycle=6161801 pc=00000b20 rd=9 data=0002577c wsel=0 ramrop=0
+CALLWB cycle=6161815 pc=00000b24 rd=11 data=00000484 wsel=0 ramrop=0
+CALLWB cycle=6161829 pc=00000b28 rd=5 data=00000004 wsel=0 ramrop=0
+CALLWB cycle=6161843 pc=00000b2c rd=14 data=00000040 wsel=0 ramrop=0
+CALLWB cycle=6161857 pc=00000b30 rd=13 data=00000004 wsel=0 ramrop=0
+CALLLOAD cycle=6161870 pc=00000b34 addr=000257b4 ren=f exmem_rd=15
+CALLWB cycle=6161891 pc=00000b34 rd=15 data=00002e7d wsel=1 ramrop=5
+CALLWB cycle=6161905 pc=00000b38 rd=19 data=0000d2a8 wsel=0 ramrop=0
+CALLWB cycle=6161919 pc=00000b3c rd=11 data=00000044 wsel=0 ramrop=0
+CALLWB cycle=6161947 pc=00000b44 rd=10 data=00000001 wsel=0 ramrop=0
+CALLWB cycle=6161975 pc=00000b4c rd=28 data=24240000 wsel=0 ramrop=0
+CALLWB cycle=6161989 pc=00000b50 rd=10 data=00002424 wsel=0 ramrop=0
+CALLWB cycle=6162003 pc=00000b54 rd=18 data=00002424 wsel=0 ramrop=0
+CALLWB cycle=6162017 pc=00000b58 rd=11 data=00002e7d wsel=0 ramrop=0
+CALLWB cycle=6162031 pc=00000b5c rd=1 data=00000b60 wsel=2 ramrop=0
+CALLWB cycle=6163960 pc=00000b60 rd=29 data=000057ba wsel=0 ramrop=0
+CALLWB cycle=6163974 pc=00000b64 rd=30 data=00002400 wsel=0 ramrop=0
+CALLWB cycle=6163988 pc=00000b68 rd=10 data=00000024 wsel=0 ramrop=0
+CALLWB cycle=6164002 pc=00000b6c rd=31 data=00002424 wsel=0 ramrop=0
+CALLWB cycle=6164030 pc=00000b74 rd=8 data=000024a4 wsel=0 ramrop=0
+CALLLOAD cycle=6164057 pc=00000b7c addr=000256ec ren=f exmem_rd=1
+CALLWB cycle=6164078 pc=00000b7c rd=1 data=00000c40 wsel=1 ramrop=1
+CALLLOAD cycle=6164091 pc=00000b80 addr=000256e8 ren=f exmem_rd=8
+CALLWB cycle=6164112 pc=00000b80 rd=8 data=0000002d wsel=1 ramrop=1
+CALLLOAD cycle=6164125 pc=00000b84 addr=000256e4 ren=f exmem_rd=9
+CALLWB cycle=6164146 pc=00000b84 rd=9 data=0000d2a8 wsel=1 ramrop=1
+CALLLOAD cycle=6164159 pc=00000b88 addr=000256e0 ren=f exmem_rd=18
+CALLWB cycle=6164180 pc=00000b88 rd=18 data=00000001 wsel=1 ramrop=1
+CALLLOAD cycle=6164193 pc=00000b8c addr=000256dc ren=f exmem_rd=19
+CALLWB cycle=6164214 pc=00000b8c rd=19 data=00000001 wsel=1 ramrop=1
+CALLWB cycle=6164228 pc=00000b90 rd=2 data=000256f0 wsel=0 ramrop=0
+CALLWB cycle=6164242 pc=00000b94 rd=0 data=00000b98 wsel=2 ramrop=0
+CALLWB cycle=6165432 pc=00000ad8 rd=2 data=000256d0 wsel=0 ramrop=0
+CALLLOAD cycle=6165459 pc=00000ae0 addr=0000d288 ren=f exmem_rd=8
+CALLWB cycle=6165480 pc=00000ae0 rd=8 data=00006464 wsel=1 ramrop=4
+CALLWB cycle=6165522 pc=00000aec rd=15 data=000000c8 wsel=0 ramrop=0
+CALLWB cycle=6165564 pc=00000af8 rd=1 data=00000000 wsel=0 ramrop=0
+CALLWB cycle=6165618 pc=00000b20 rd=9 data=0002577c wsel=0 ramrop=0
+CALLWB cycle=6165632 pc=00000b24 rd=11 data=00000c8c wsel=0 ramrop=0
+CALLWB cycle=6165646 pc=00000b28 rd=5 data=0000000c wsel=0 ramrop=0
+CALLWB cycle=6165660 pc=00000b2c rd=14 data=000000c0 wsel=0 ramrop=0
+CALLWB cycle=6165674 pc=00000b30 rd=13 data=00000004 wsel=0 ramrop=0
+CALLLOAD cycle=6165687 pc=00000b34 addr=000257b4 ren=f exmem_rd=15
+CALLWB cycle=6165708 pc=00000b34 rd=15 data=000057ba wsel=1 ramrop=5
+CALLWB cycle=6165722 pc=00000b38 rd=19 data=0000d288 wsel=0 ramrop=0
+CALLWB cycle=6165736 pc=00000b3c rd=11 data=000000cc wsel=0 ramrop=0
+CALLWB cycle=6165764 pc=00000b44 rd=10 data=00000001 wsel=0 ramrop=0
+CALLWB cycle=6165792 pc=00000b4c rd=28 data=64640000 wsel=0 ramrop=0
+CALLWB cycle=6165806 pc=00000b50 rd=10 data=00006464 wsel=0 ramrop=0
+CALLWB cycle=6165820 pc=00000b54 rd=18 data=00006464 wsel=0 ramrop=0
+CALLWB cycle=6165834 pc=00000b58 rd=11 data=000057ba wsel=0 ramrop=0
+CALLWB cycle=6165848 pc=00000b5c rd=1 data=00000b60 wsel=2 ramrop=0
+CALLWB cycle=6167689 pc=00000b60 rd=29 data=0000b519 wsel=0 ramrop=0
+CALLWB cycle=6167703 pc=00000b64 rd=30 data=00006400 wsel=0 ramrop=0
+CALLWB cycle=6167717 pc=00000b68 rd=10 data=00000064 wsel=0 ramrop=0
+CALLWB cycle=6167731 pc=00000b6c rd=31 data=00006464 wsel=0 ramrop=0
+CALLWB cycle=6167759 pc=00000b74 rd=8 data=000064e4 wsel=0 ramrop=0
+CALLLOAD cycle=6167786 pc=00000b7c addr=000256ec ren=f exmem_rd=1
+CALLWB cycle=6167807 pc=00000b7c rd=1 data=00000c2c wsel=1 ramrop=1
+CALLLOAD cycle=6167820 pc=00000b80 addr=000256e8 ren=f exmem_rd=8
+CALLWB cycle=6167841 pc=00000b80 rd=8 data=0002577c wsel=1 ramrop=1
+CALLLOAD cycle=6167854 pc=00000b84 addr=000256e4 ren=f exmem_rd=9
+CALLWB cycle=6167875 pc=00000b84 rd=9 data=0000d268 wsel=1 ramrop=1
+CALLLOAD cycle=6167888 pc=00000b88 addr=000256e0 ren=f exmem_rd=18
+CALLWB cycle=6167909 pc=00000b88 rd=18 data=00000001 wsel=1 ramrop=1
+CALLLOAD cycle=6167922 pc=00000b8c addr=000256dc ren=f exmem_rd=19
+CALLWB cycle=6167943 pc=00000b8c rd=19 data=00000001 wsel=1 ramrop=1
+CALLWB cycle=6167957 pc=00000b90 rd=2 data=000256f0 wsel=0 ramrop=0
+CALLWB cycle=6167971 pc=00000b94 rd=0 data=00000b98 wsel=2 ramrop=0
+CALLWB cycle=6168094 pc=00000ad8 rd=2 data=000256d0 wsel=0 ramrop=0
+CALLLOAD cycle=6168121 pc=00000ae0 addr=0000d268 ren=f exmem_rd=8
+CALLWB cycle=6168142 pc=00000ae0 rd=8 data=00002424 wsel=1 ramrop=4
+CALLWB cycle=6168184 pc=00000aec rd=15 data=00000048 wsel=0 ramrop=0
+CALLWB cycle=6168226 pc=00000af8 rd=1 data=00000000 wsel=0 ramrop=0
+CALLWB cycle=6168280 pc=00000b20 rd=9 data=0002577c wsel=0 ramrop=0
+CALLWB cycle=6168294 pc=00000b24 rd=11 data=00000484 wsel=0 ramrop=0
+CALLWB cycle=6168308 pc=00000b28 rd=5 data=00000004 wsel=0 ramrop=0
+CALLWB cycle=6168322 pc=00000b2c rd=14 data=00000040 wsel=0 ramrop=0
+CALLWB cycle=6168336 pc=00000b30 rd=13 data=00000004 wsel=0 ramrop=0
+CALLLOAD cycle=6168349 pc=00000b34 addr=000257b4 ren=f exmem_rd=15
+CALLWB cycle=6168370 pc=00000b34 rd=15 data=0000b519 wsel=1 ramrop=5
+CALLWB cycle=6168384 pc=00000b38 rd=19 data=0000d268 wsel=0 ramrop=0
+CALLWB cycle=6168398 pc=00000b3c rd=11 data=00000044 wsel=0 ramrop=0
+CALLWB cycle=6168426 pc=00000b44 rd=10 data=00000001 wsel=0 ramrop=0
+CALLWB cycle=6168454 pc=00000b4c rd=28 data=24240000 wsel=0 ramrop=0
+CALLWB cycle=6168468 pc=00000b50 rd=10 data=00002424 wsel=0 ramrop=0
+CALLWB cycle=6168482 pc=00000b54 rd=18 data=00002424 wsel=0 ramrop=0
+CALLWB cycle=6168496 pc=00000b58 rd=11 data=0000b519 wsel=0 ramrop=0
+CALLWB cycle=6168510 pc=00000b5c rd=1 data=00000b60 wsel=2 ramrop=0
+CALLWB cycle=6170518 pc=00000b60 rd=29 data=00003cd1 wsel=0 ramrop=0
+CALLWB cycle=6170532 pc=00000b64 rd=30 data=00002400 wsel=0 ramrop=0
+CALLWB cycle=6170546 pc=00000b68 rd=10 data=00000024 wsel=0 ramrop=0
+CALLWB cycle=6170560 pc=00000b6c rd=31 data=00002424 wsel=0 ramrop=0
+CALLWB cycle=6170588 pc=00000b74 rd=8 data=000024a4 wsel=0 ramrop=0
+CALLLOAD cycle=6170615 pc=00000b7c addr=000256ec ren=f exmem_rd=1
+CALLWB cycle=6170636 pc=00000b7c rd=1 data=00000c40 wsel=1 ramrop=1
+CALLLOAD cycle=6170649 pc=00000b80 addr=000256e8 ren=f exmem_rd=8
+CALLWB cycle=6170670 pc=00000b80 rd=8 data=00000064 wsel=1 ramrop=1
+CALLLOAD cycle=6170683 pc=00000b84 addr=000256e4 ren=f exmem_rd=9
+CALLWB cycle=6170704 pc=00000b84 rd=9 data=0000d268 wsel=1 ramrop=1
+CALLLOAD cycle=6170717 pc=00000b88 addr=000256e0 ren=f exmem_rd=18
+CALLWB cycle=6170738 pc=00000b88 rd=18 data=00000001 wsel=1 ramrop=1
+CALLLOAD cycle=6170751 pc=00000b8c addr=000256dc ren=f exmem_rd=19
+CALLWB cycle=6170772 pc=00000b8c rd=19 data=00000001 wsel=1 ramrop=1
+CALLWB cycle=6170786 pc=00000b90 rd=2 data=000256f0 wsel=0 ramrop=0
+CALLWB cycle=6170800 pc=00000b94 rd=0 data=00000b98 wsel=2 ramrop=0
+CALLWB cycle=6171990 pc=00000ad8 rd=2 data=000256d0 wsel=0 ramrop=0
+CALLLOAD cycle=6172017 pc=00000ae0 addr=0000d2a4 ren=f exmem_rd=8
+CALLWB cycle=6172038 pc=00000ae0 rd=8 data=00001b1b wsel=1 ramrop=4
+CALLWB cycle=6172080 pc=00000aec rd=15 data=00000036 wsel=0 ramrop=0
+CALLWB cycle=6172122 pc=00000af8 rd=1 data=00000000 wsel=0 ramrop=0
+CALLWB cycle=6172176 pc=00000b20 rd=9 data=0002577c wsel=0 ramrop=0
+CALLWB cycle=6172190 pc=00000b24 rd=11 data=00000363 wsel=0 ramrop=0
+CALLWB cycle=6172204 pc=00000b28 rd=5 data=00000003 wsel=0 ramrop=0
+CALLWB cycle=6172218 pc=00000b2c rd=14 data=00000030 wsel=0 ramrop=0
+CALLWB cycle=6172232 pc=00000b30 rd=13 data=00000003 wsel=0 ramrop=0
+CALLLOAD cycle=6172245 pc=00000b34 addr=000257b4 ren=f exmem_rd=15
+CALLWB cycle=6172266 pc=00000b34 rd=15 data=00003cd1 wsel=1 ramrop=5
+CALLWB cycle=6172280 pc=00000b38 rd=19 data=0000d2a4 wsel=0 ramrop=0
+CALLWB cycle=6172294 pc=00000b3c rd=11 data=00000033 wsel=0 ramrop=0
+CALLWB cycle=6172322 pc=00000b44 rd=10 data=00000001 wsel=0 ramrop=0
+CALLWB cycle=6172350 pc=00000b4c rd=28 data=1b1b0000 wsel=0 ramrop=0
+CALLWB cycle=6172364 pc=00000b50 rd=10 data=00001b1b wsel=0 ramrop=0
+CALLWB cycle=6172378 pc=00000b54 rd=18 data=00001b1b wsel=0 ramrop=0
+STATEWB cycle=6280118 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=6422648 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=6515963 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=6609055 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=6701997 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=6795312 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=6888627 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=6981719 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=7074661 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=7167976 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=7280509 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=7435164 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=7591898 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=7749253 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=7907637 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=8064048 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=8220902 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=8378240 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=8534870 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=8836343 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=8978873 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=9072188 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=9165280 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=9258222 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=9351537 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=9444852 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=9537944 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=9630886 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=9724201 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=9836769 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=9993839 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+PROBE cycle=10000000 pc=0000702c if_id=00000000 ex_mem=00007028 rstate=1 wstate=0 arvalid=1 rvalid=0 awvalid=0 wvalid=0 bvalid=0 x16=ffffa000 x17=ffffa001 x18=0000d418 x20=0000d55c x21=0000d406 x22=00000000
+STATEWB cycle=10150252 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=10307608 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=10463469 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=10619560 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=10774990 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=10931021 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=11087547 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=11366498 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=11509028 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=11602343 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=11695435 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=11788377 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=11881692 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=11975007 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=12068099 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=12161041 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=12254356 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=12366889 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=12521544 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=12678278 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=12835633 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=12994017 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=13150428 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=13307282 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=13464620 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEWB cycle=13621250 pc=00003750 rd=6 data=0000000f wsel=0 ramrop=0
+STATEENTRY cycle=13808500 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000000 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808501 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000000 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808502 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000000 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808503 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000000 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808504 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000000 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808505 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808506 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808507 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808508 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808509 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808510 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808511 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808512 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808513 pc=00000bbc x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808516 pc=0000355c x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808517 pc=0000355c x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808518 pc=0000355c x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808519 pc=0000355c x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808520 pc=0000355c x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEENTRY cycle=13808521 pc=0000355c x10=0000029a x11=0000d68c x12=00000000 x13=00000000 x14=00000022 x15=00004aed x16=ffffa001 x17=95db0000 x18=00000001 x19=0000d298 x20=0000d170 x21=0000d220 x22=00000c0c x23=00000001 x24=00000008 x25=00000001 x26=0002577c x27=00000002 x28=000095db x29=00004aed x30=00000900 x31=0000093b
+STATEWB cycle=13808545 pc=0000355c rd=2 data=00025650 wsel=0 ramrop=0
+STATEWB cycle=13808685 pc=00003584 rd=20 data=0000d68c wsel=0 ramrop=0
+STATELOAD cycle=13808698 pc=00003588 addr=0000d68c ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATEWB cycle=13808719 pc=00003588 rd=11 data=00000035 wsel=1 ramrop=3
+STATEWB cycle=13808971 pc=000035d0 rd=9 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13808985 pc=000035d4 rd=21 data=0000029a wsel=0 ramrop=0
+STATEWB cycle=13808999 pc=000035d8 rd=22 data=00000000 wsel=0 ramrop=0
+STATEWB cycle=13809013 pc=000035dc rd=19 data=00000000 wsel=0 ramrop=0
+STATEWB cycle=13809027 pc=000035e0 rd=18 data=00000022 wsel=0 ramrop=0
+STATEWB cycle=13809041 pc=000035e4 rd=8 data=00004aed wsel=0 ramrop=0
+STATEWB cycle=13809069 pc=000035ec rd=23 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13809083 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13809097 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13809111 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13810193 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13810207 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13810221 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13810234 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13810255 pc=00003608 rd=14 data=0000d691 wsel=1 ramrop=1
+STATELOAD cycle=13810268 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13810289 pc=0000360c rd=7 data=00000000 wsel=1 ramrop=1
+STATELOAD cycle=13810302 pc=00003610 addr=0000d691 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13810323 pc=00003610 rd=10 data=00000035 wsel=1 ramrop=3
+STATEWB cycle=13810337 pc=00003614 rd=12 data=00000001 wsel=0 ramrop=0
+STATEWB cycle=13810405 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13810419 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13810433 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13811515 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13811529 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13811543 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13811556 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13811577 pc=00003608 rd=14 data=0000d696 wsel=1 ramrop=1
+STATELOAD cycle=13811590 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13811611 pc=0000360c rd=7 data=00000001 wsel=1 ramrop=1
+STATELOAD cycle=13811624 pc=00003610 addr=0000d696 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13811645 pc=00003610 rd=10 data=00000033 wsel=1 ramrop=3
+STATEWB cycle=13811659 pc=00003614 rd=12 data=00000002 wsel=0 ramrop=0
+STATEWB cycle=13811727 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13811741 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13811755 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13813823 pc=000035fc rd=5 data=00000014 wsel=0 ramrop=0
+STATEWB cycle=13813837 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13813851 pc=00003604 rd=6 data=000256b4 wsel=0 ramrop=0
+STATELOAD cycle=13813864 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13813885 pc=00003608 rd=14 data=0000d69f wsel=1 ramrop=1
+STATELOAD cycle=13813898 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13813919 pc=0000360c rd=7 data=00000000 wsel=1 ramrop=1
+STATELOAD cycle=13813932 pc=00003610 addr=0000d69f ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13813953 pc=00003610 rd=10 data=00000033 wsel=1 ramrop=3
+STATEWB cycle=13813967 pc=00003614 rd=12 data=00000001 wsel=0 ramrop=0
+STATEWB cycle=13814035 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13814049 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13814063 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13816131 pc=000035fc rd=5 data=00000014 wsel=0 ramrop=0
+STATEWB cycle=13816145 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13816159 pc=00003604 rd=6 data=000256b4 wsel=0 ramrop=0
+STATELOAD cycle=13816172 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13816193 pc=00003608 rd=14 data=0000d6a8 wsel=1 ramrop=1
+STATELOAD cycle=13816206 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13816227 pc=0000360c rd=7 data=00000001 wsel=1 ramrop=1
+STATELOAD cycle=13816240 pc=00003610 addr=0000d6a8 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13816261 pc=00003610 rd=10 data=00000035 wsel=1 ramrop=3
+STATEWB cycle=13816275 pc=00003614 rd=12 data=00000002 wsel=0 ramrop=0
+STATEWB cycle=13816343 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13816357 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13816371 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13818540 pc=000035fc rd=5 data=0000001c wsel=0 ramrop=0
+STATEWB cycle=13818554 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13818568 pc=00003604 rd=6 data=000256bc wsel=0 ramrop=0
+STATELOAD cycle=13818581 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13818602 pc=00003608 rd=14 data=0000d6b1 wsel=1 ramrop=1
+STATELOAD cycle=13818615 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13818636 pc=0000360c rd=7 data=00000000 wsel=1 ramrop=1
+STATELOAD cycle=13818649 pc=00003610 addr=0000d6b1 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13818670 pc=00003610 rd=10 data=00000035 wsel=1 ramrop=3
+STATEWB cycle=13818684 pc=00003614 rd=12 data=00000001 wsel=0 ramrop=0
+STATEWB cycle=13818752 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13818766 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13818780 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13820949 pc=000035fc rd=5 data=0000001c wsel=0 ramrop=0
+STATEWB cycle=13820963 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13820977 pc=00003604 rd=6 data=000256bc wsel=0 ramrop=0
+STATELOAD cycle=13820990 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13821011 pc=00003608 rd=14 data=0000d6ba wsel=1 ramrop=1
+STATELOAD cycle=13821024 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13821045 pc=0000360c rd=7 data=00000001 wsel=1 ramrop=1
+STATELOAD cycle=13821058 pc=00003610 addr=0000d6ba ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13821079 pc=00003610 rd=10 data=00000054 wsel=1 ramrop=3
+STATEWB cycle=13821093 pc=00003614 rd=12 data=00000002 wsel=0 ramrop=0
+STATEWB cycle=13821161 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13821175 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13821189 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13821740 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13821754 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13821768 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13821781 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13821802 pc=00003608 rd=14 data=0000d6bb wsel=1 ramrop=1
+STATELOAD cycle=13821815 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13821836 pc=0000360c rd=7 data=00000000 wsel=1 ramrop=1
+STATELOAD cycle=13821849 pc=00003610 addr=0000d6bb ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13821870 pc=00003610 rd=10 data=00000030 wsel=1 ramrop=3
+STATEWB cycle=13821884 pc=00003614 rd=12 data=00000001 wsel=0 ramrop=0
+STATEWB cycle=13821952 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13821966 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13821980 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13823801 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13823815 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13823829 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13823842 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13823863 pc=00003608 rd=14 data=0000d6c2 wsel=1 ramrop=1
+STATELOAD cycle=13823876 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13823897 pc=0000360c rd=7 data=00000001 wsel=1 ramrop=1
+STATELOAD cycle=13823910 pc=00003610 addr=0000d6c2 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13823931 pc=00003610 rd=10 data=0000002c wsel=1 ramrop=3
+STATEWB cycle=13823945 pc=00003614 rd=12 data=00000002 wsel=0 ramrop=0
+STATEWB cycle=13824013 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13824027 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13824041 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13824355 pc=000035fc rd=5 data=00000000 wsel=0 ramrop=0
+STATEWB cycle=13824369 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13824383 pc=00003604 rd=6 data=000256a0 wsel=0 ramrop=0
+STATELOAD cycle=13824396 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13824417 pc=00003608 rd=14 data=0000d6c3 wsel=1 ramrop=1
+STATELOAD cycle=13824430 pc=0000360c addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13824451 pc=0000360c rd=7 data=00000000 wsel=1 ramrop=1
+STATELOAD cycle=13824464 pc=00003610 addr=0000d6c3 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13824485 pc=00003610 rd=10 data=00000031 wsel=1 ramrop=3
+STATEWB cycle=13824499 pc=00003614 rd=12 data=00000001 wsel=0 ramrop=0
+STATEWB cycle=13824567 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13824581 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13824595 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13825677 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13825691 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13825705 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13825718 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13825739 pc=00003608 rd=14 data=0000d6c8 wsel=1 ramrop=1
+STATELOAD cycle=13825752 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13825773 pc=0000360c rd=7 data=00000002 wsel=1 ramrop=1
+STATELOAD cycle=13825786 pc=00003610 addr=0000d6c8 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13825807 pc=00003610 rd=10 data=00000031 wsel=1 ramrop=3
+STATEWB cycle=13825821 pc=00003614 rd=12 data=00000003 wsel=0 ramrop=0
+STATEWB cycle=13825889 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13825903 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13825917 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13826999 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13827013 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13827027 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13827040 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13827061 pc=00003608 rd=14 data=0000d6cd wsel=1 ramrop=1
+STATELOAD cycle=13827074 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13827095 pc=0000360c rd=7 data=00000003 wsel=1 ramrop=1
+STATELOAD cycle=13827108 pc=00003610 addr=0000d6cd ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13827129 pc=00003610 rd=10 data=00000031 wsel=1 ramrop=3
+STATEWB cycle=13827143 pc=00003614 rd=12 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13827211 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13827225 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13827239 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13828321 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13828335 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13828349 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13828362 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13828383 pc=00003608 rd=14 data=0000d6d2 wsel=1 ramrop=1
+STATELOAD cycle=13828396 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13828417 pc=0000360c rd=7 data=00000004 wsel=1 ramrop=1
+STATELOAD cycle=13828430 pc=00003610 addr=0000d6d2 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13828451 pc=00003610 rd=10 data=0000002e wsel=1 ramrop=3
+STATEWB cycle=13828465 pc=00003614 rd=12 data=00000005 wsel=0 ramrop=0
+STATEWB cycle=13828533 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13828547 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13828561 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13830836 pc=000035fc rd=5 data=00000014 wsel=0 ramrop=0
+STATEWB cycle=13830850 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13830864 pc=00003604 rd=6 data=000256b4 wsel=0 ramrop=0
+STATELOAD cycle=13830877 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13830898 pc=00003608 rd=14 data=0000d6db wsel=1 ramrop=1
+STATELOAD cycle=13830911 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13830932 pc=0000360c rd=7 data=00000002 wsel=1 ramrop=1
+STATELOAD cycle=13830945 pc=00003610 addr=0000d6db ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13830966 pc=00003610 rd=10 data=0000002e wsel=1 ramrop=3
+STATEWB cycle=13830980 pc=00003614 rd=12 data=00000003 wsel=0 ramrop=0
+STATEWB cycle=13831048 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13831062 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13831076 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13833351 pc=000035fc rd=5 data=00000014 wsel=0 ramrop=0
+STATEWB cycle=13833365 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13833379 pc=00003604 rd=6 data=000256b4 wsel=0 ramrop=0
+STATELOAD cycle=13833392 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13833413 pc=00003608 rd=14 data=0000d6e4 wsel=1 ramrop=1
+STATELOAD cycle=13833426 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13833447 pc=0000360c rd=7 data=00000003 wsel=1 ramrop=1
+STATELOAD cycle=13833460 pc=00003610 addr=0000d6e4 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13833481 pc=00003610 rd=10 data=0000002d wsel=1 ramrop=3
+STATEWB cycle=13833495 pc=00003614 rd=12 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13833563 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13833577 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13833591 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13835907 pc=000035fc rd=5 data=0000001c wsel=0 ramrop=0
+STATEWB cycle=13835921 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13835935 pc=00003604 rd=6 data=000256bc wsel=0 ramrop=0
+STATELOAD cycle=13835948 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13835969 pc=00003608 rd=14 data=0000d6ed wsel=1 ramrop=1
+STATELOAD cycle=13835982 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13836003 pc=0000360c rd=7 data=00000002 wsel=1 ramrop=1
+STATELOAD cycle=13836016 pc=00003610 addr=0000d6ed ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13836037 pc=00003610 rd=10 data=0000002d wsel=1 ramrop=3
+STATEWB cycle=13836051 pc=00003614 rd=12 data=00000003 wsel=0 ramrop=0
+STATEWB cycle=13836119 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13836133 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13836147 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13838463 pc=000035fc rd=5 data=0000001c wsel=0 ramrop=0
+STATEWB cycle=13838477 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13838491 pc=00003604 rd=6 data=000256bc wsel=0 ramrop=0
+STATELOAD cycle=13838504 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13838525 pc=00003608 rd=14 data=0000d6f6 wsel=1 ramrop=1
+STATELOAD cycle=13838538 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13838559 pc=0000360c rd=7 data=00000003 wsel=1 ramrop=1
+STATELOAD cycle=13838572 pc=00003610 addr=0000d6f6 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13838593 pc=00003610 rd=10 data=0000002d wsel=1 ramrop=3
+STATEWB cycle=13838607 pc=00003614 rd=12 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13838675 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13838689 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13838703 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13839412 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13839426 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13839440 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13839453 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13839474 pc=00003608 rd=14 data=0000d6f8 wsel=1 ramrop=1
+STATELOAD cycle=13839487 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13839508 pc=0000360c rd=7 data=00000002 wsel=1 ramrop=1
+STATELOAD cycle=13839521 pc=00003610 addr=0000d6f8 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13839542 pc=00003610 rd=10 data=0000002e wsel=1 ramrop=3
+STATEWB cycle=13839556 pc=00003614 rd=12 data=00000003 wsel=0 ramrop=0
+STATEWB cycle=13839624 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13839638 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13839652 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13840472 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13840486 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13840500 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13840513 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13840534 pc=00003608 rd=14 data=0000d6fa wsel=1 ramrop=1
+STATELOAD cycle=13840547 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13840568 pc=0000360c rd=7 data=00000003 wsel=1 ramrop=1
+STATELOAD cycle=13840581 pc=00003610 addr=0000d6fa ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13840602 pc=00003610 rd=10 data=0000002b wsel=1 ramrop=3
+STATEWB cycle=13840616 pc=00003614 rd=12 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13840684 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13840698 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13840712 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13841393 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13841407 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13841421 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13841434 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13841455 pc=00003608 rd=14 data=0000d6fc wsel=1 ramrop=1
+STATELOAD cycle=13841468 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13841489 pc=0000360c rd=7 data=00000004 wsel=1 ramrop=1
+STATELOAD cycle=13841502 pc=00003610 addr=0000d6fc ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13841523 pc=00003610 rd=10 data=00000054 wsel=1 ramrop=3
+STATEWB cycle=13841537 pc=00003614 rd=12 data=00000005 wsel=0 ramrop=0
+STATEWB cycle=13841605 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13841619 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13841633 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13842184 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13842198 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13842212 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13842225 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13842246 pc=00003608 rd=14 data=0000d6fd wsel=1 ramrop=1
+STATELOAD cycle=13842259 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13842280 pc=0000360c rd=7 data=00000005 wsel=1 ramrop=1
+STATELOAD cycle=13842293 pc=00003610 addr=0000d6fd ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13842314 pc=00003610 rd=10 data=00000071 wsel=1 ramrop=3
+STATEWB cycle=13842328 pc=00003614 rd=12 data=00000006 wsel=0 ramrop=0
+STATEWB cycle=13842396 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13842410 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13842424 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13842975 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13842989 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13843003 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13843016 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13843037 pc=00003608 rd=14 data=0000d6fe wsel=1 ramrop=1
+STATELOAD cycle=13843050 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13843071 pc=0000360c rd=7 data=00000006 wsel=1 ramrop=1
+STATELOAD cycle=13843084 pc=00003610 addr=0000d6fe ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13843105 pc=00003610 rd=10 data=0000002c wsel=1 ramrop=3
+STATEWB cycle=13843119 pc=00003614 rd=12 data=00000007 wsel=0 ramrop=0
+STATEWB cycle=13843187 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13843201 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13843215 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13843529 pc=000035fc rd=5 data=00000000 wsel=0 ramrop=0
+STATEWB cycle=13843543 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13843557 pc=00003604 rd=6 data=000256a0 wsel=0 ramrop=0
+STATELOAD cycle=13843570 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13843591 pc=00003608 rd=14 data=0000d6ff wsel=1 ramrop=1
+STATELOAD cycle=13843604 pc=0000360c addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13843625 pc=0000360c rd=7 data=00000001 wsel=1 ramrop=1
+STATELOAD cycle=13843638 pc=00003610 addr=0000d6ff ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13843659 pc=00003610 rd=10 data=0000002d wsel=1 ramrop=3
+STATEWB cycle=13843673 pc=00003614 rd=12 data=00000002 wsel=0 ramrop=0
+STATEWB cycle=13843741 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13843755 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13843769 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13845033 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13845047 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13845061 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13845074 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13845095 pc=00003608 rd=14 data=0000d704 wsel=1 ramrop=1
+STATELOAD cycle=13845108 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13845129 pc=0000360c rd=7 data=00000005 wsel=1 ramrop=1
+STATELOAD cycle=13845142 pc=00003610 addr=0000d704 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13845163 pc=00003610 rd=10 data=0000002d wsel=1 ramrop=3
+STATEWB cycle=13845177 pc=00003614 rd=12 data=00000006 wsel=0 ramrop=0
+STATEWB cycle=13845245 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13845259 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13845273 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13846537 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13846551 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13846565 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13846578 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13846599 pc=00003608 rd=14 data=0000d709 wsel=1 ramrop=1
+STATELOAD cycle=13846612 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13846633 pc=0000360c rd=7 data=00000006 wsel=1 ramrop=1
+STATELOAD cycle=13846646 pc=00003610 addr=0000d709 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13846667 pc=00003610 rd=10 data=0000002d wsel=1 ramrop=3
+STATEWB cycle=13846681 pc=00003614 rd=12 data=00000007 wsel=0 ramrop=0
+STATEWB cycle=13846749 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13846763 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13846777 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13848041 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13848055 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13848069 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13848082 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13848103 pc=00003608 rd=14 data=0000d70e wsel=1 ramrop=1
+STATELOAD cycle=13848116 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13848137 pc=0000360c rd=7 data=00000007 wsel=1 ramrop=1
+STATELOAD cycle=13848150 pc=00003610 addr=0000d70e ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13848171 pc=00003610 rd=10 data=0000002d wsel=1 ramrop=3
+STATEWB cycle=13848185 pc=00003614 rd=12 data=00000008 wsel=0 ramrop=0
+STATEWB cycle=13848253 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13848267 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13848281 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13850449 pc=000035fc rd=5 data=00000014 wsel=0 ramrop=0
+STATEWB cycle=13850463 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13850477 pc=00003604 rd=6 data=000256b4 wsel=0 ramrop=0
+STATELOAD cycle=13850490 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13850511 pc=00003608 rd=14 data=0000d717 wsel=1 ramrop=1
+STATELOAD cycle=13850524 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13850545 pc=0000360c rd=7 data=00000004 wsel=1 ramrop=1
+STATELOAD cycle=13850558 pc=00003610 addr=0000d717 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13850579 pc=00003610 rd=10 data=0000002d wsel=1 ramrop=3
+STATEWB cycle=13850593 pc=00003614 rd=12 data=00000005 wsel=0 ramrop=0
+STATEWB cycle=13850661 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13850675 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13850689 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13852857 pc=000035fc rd=5 data=00000014 wsel=0 ramrop=0
+STATEWB cycle=13852871 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13852885 pc=00003604 rd=6 data=000256b4 wsel=0 ramrop=0
+STATELOAD cycle=13852898 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13852919 pc=00003608 rd=14 data=0000d720 wsel=1 ramrop=1
+STATELOAD cycle=13852932 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13852953 pc=0000360c rd=7 data=00000005 wsel=1 ramrop=1
+STATELOAD cycle=13852966 pc=00003610 addr=0000d720 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13852987 pc=00003610 rd=10 data=0000002d wsel=1 ramrop=3
+STATEWB cycle=13853001 pc=00003614 rd=12 data=00000006 wsel=0 ramrop=0
+STATEWB cycle=13853069 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13853083 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13853097 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13854306 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13854320 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13854334 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13854347 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13854368 pc=00003608 rd=14 data=0000d724 wsel=1 ramrop=1
+STATELOAD cycle=13854381 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13854402 pc=0000360c rd=7 data=00000007 wsel=1 ramrop=1
+STATELOAD cycle=13854415 pc=00003610 addr=0000d724 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13854436 pc=00003610 rd=10 data=0000002b wsel=1 ramrop=3
+STATEWB cycle=13854450 pc=00003614 rd=12 data=00000008 wsel=0 ramrop=0
+STATEWB cycle=13854518 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13854532 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13854546 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13855782 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13855796 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13855810 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13855823 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13855844 pc=00003608 rd=14 data=0000d729 wsel=1 ramrop=1
+STATELOAD cycle=13855857 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13855878 pc=0000360c rd=7 data=00000008 wsel=1 ramrop=1
+STATELOAD cycle=13855891 pc=00003610 addr=0000d729 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13855912 pc=00003610 rd=10 data=0000002d wsel=1 ramrop=3
+STATEWB cycle=13855926 pc=00003614 rd=12 data=00000009 wsel=0 ramrop=0
+STATEWB cycle=13855994 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13856008 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13856022 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13857231 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13857245 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13857259 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13857272 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13857293 pc=00003608 rd=14 data=0000d72d wsel=1 ramrop=1
+STATELOAD cycle=13857306 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13857327 pc=0000360c rd=7 data=00000008 wsel=1 ramrop=1
+STATELOAD cycle=13857340 pc=00003610 addr=0000d72d ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13857361 pc=00003610 rd=10 data=0000002b wsel=1 ramrop=3
+STATEWB cycle=13857375 pc=00003614 rd=12 data=00000009 wsel=0 ramrop=0
+STATEWB cycle=13857443 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13857457 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13857471 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13858707 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13858721 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13858735 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13858748 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13858769 pc=00003608 rd=14 data=0000d732 wsel=1 ramrop=1
+STATELOAD cycle=13858782 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13858803 pc=0000360c rd=7 data=00000009 wsel=1 ramrop=1
+STATELOAD cycle=13858816 pc=00003610 addr=0000d732 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13858837 pc=00003610 rd=10 data=00000031 wsel=1 ramrop=3
+STATEWB cycle=13858851 pc=00003614 rd=12 data=0000000a wsel=0 ramrop=0
+STATEWB cycle=13858919 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13858933 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13858947 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13859602 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13859616 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13859630 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13859643 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13859664 pc=00003608 rd=14 data=0000d734 wsel=1 ramrop=1
+STATELOAD cycle=13859677 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13859698 pc=0000360c rd=7 data=00000009 wsel=1 ramrop=1
+STATELOAD cycle=13859711 pc=00003610 addr=0000d734 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13859732 pc=00003610 rd=10 data=00000033 wsel=1 ramrop=3
+STATEWB cycle=13859746 pc=00003614 rd=12 data=0000000a wsel=0 ramrop=0
+STATEWB cycle=13859814 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13859828 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13859842 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13861194 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13861208 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13861222 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13861235 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13861256 pc=00003608 rd=14 data=0000d739 wsel=1 ramrop=1
+STATELOAD cycle=13861269 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13861290 pc=0000360c rd=7 data=0000000a wsel=1 ramrop=1
+STATELOAD cycle=13861303 pc=00003610 addr=0000d739 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13861324 pc=00003610 rd=10 data=0000007a wsel=1 ramrop=3
+STATEWB cycle=13861338 pc=00003614 rd=12 data=0000000b wsel=0 ramrop=0
+STATEWB cycle=13861406 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13861420 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13861434 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13861985 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13861999 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13862013 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13862026 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13862047 pc=00003608 rd=14 data=0000d73a wsel=1 ramrop=1
+STATELOAD cycle=13862060 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13862081 pc=0000360c rd=7 data=0000000b wsel=1 ramrop=1
+STATELOAD cycle=13862094 pc=00003610 addr=0000d73a ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13862115 pc=00003610 rd=10 data=0000002c wsel=1 ramrop=3
+STATEWB cycle=13862129 pc=00003614 rd=12 data=0000000c wsel=0 ramrop=0
+STATEWB cycle=13862197 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13862211 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13862225 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13862539 pc=000035fc rd=5 data=00000000 wsel=0 ramrop=0
+STATEWB cycle=13862553 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13862567 pc=00003604 rd=6 data=000256a0 wsel=0 ramrop=0
+STATELOAD cycle=13862580 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13862601 pc=00003608 rd=14 data=0000d73b wsel=1 ramrop=1
+STATELOAD cycle=13862614 pc=0000360c addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13862635 pc=0000360c rd=7 data=00000002 wsel=1 ramrop=1
+STATELOAD cycle=13862648 pc=00003610 addr=0000d73b ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13862669 pc=00003610 rd=10 data=0000002b wsel=1 ramrop=3
+STATEWB cycle=13862683 pc=00003614 rd=12 data=00000003 wsel=0 ramrop=0
+STATEWB cycle=13862751 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13862765 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13862779 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13864015 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13864029 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13864043 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13864056 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13864077 pc=00003608 rd=14 data=0000d740 wsel=1 ramrop=1
+STATELOAD cycle=13864090 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13864111 pc=0000360c rd=7 data=0000000a wsel=1 ramrop=1
+STATELOAD cycle=13864124 pc=00003610 addr=0000d740 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13864145 pc=00003610 rd=10 data=0000002b wsel=1 ramrop=3
+STATEWB cycle=13864159 pc=00003614 rd=12 data=0000000b wsel=0 ramrop=0
+STATEWB cycle=13864227 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13864241 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13864255 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13865491 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13865505 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13865519 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13865532 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13865553 pc=00003608 rd=14 data=0000d745 wsel=1 ramrop=1
+STATELOAD cycle=13865566 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13865587 pc=0000360c rd=7 data=0000000b wsel=1 ramrop=1
+STATELOAD cycle=13865600 pc=00003610 addr=0000d745 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13865621 pc=00003610 rd=10 data=0000002b wsel=1 ramrop=3
+STATEWB cycle=13865635 pc=00003614 rd=12 data=0000000c wsel=0 ramrop=0
+STATEWB cycle=13865703 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13865717 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13865731 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13866967 pc=000035fc rd=5 data=00000010 wsel=0 ramrop=0
+STATEWB cycle=13866981 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13866995 pc=00003604 rd=6 data=000256b0 wsel=0 ramrop=0
+STATELOAD cycle=13867008 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13867029 pc=00003608 rd=14 data=0000d74a wsel=1 ramrop=1
+STATELOAD cycle=13867042 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13867063 pc=0000360c rd=7 data=0000000c wsel=1 ramrop=1
+STATELOAD cycle=13867076 pc=00003610 addr=0000d74a ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13867097 pc=00003610 rd=10 data=0000002b wsel=1 ramrop=3
+STATEWB cycle=13867111 pc=00003614 rd=12 data=0000000d wsel=0 ramrop=0
+STATEWB cycle=13867179 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13867193 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13867207 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13869481 pc=000035fc rd=5 data=00000014 wsel=0 ramrop=0
+STATEWB cycle=13869495 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13869509 pc=00003604 rd=6 data=000256b4 wsel=0 ramrop=0
+STATELOAD cycle=13869522 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13869543 pc=00003608 rd=14 data=0000d753 wsel=1 ramrop=1
+STATELOAD cycle=13869556 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13869577 pc=0000360c rd=7 data=00000006 wsel=1 ramrop=1
+STATELOAD cycle=13869590 pc=00003610 addr=0000d753 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13869611 pc=00003610 rd=10 data=0000002b wsel=1 ramrop=3
+STATEWB cycle=13869625 pc=00003614 rd=12 data=00000007 wsel=0 ramrop=0
+STATEWB cycle=13869693 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13869707 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13869721 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13871995 pc=000035fc rd=5 data=00000014 wsel=0 ramrop=0
+STATEWB cycle=13872009 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13872023 pc=00003604 rd=6 data=000256b4 wsel=0 ramrop=0
+STATELOAD cycle=13872036 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13872057 pc=00003608 rd=14 data=0000d75c wsel=1 ramrop=1
+STATELOAD cycle=13872070 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13872091 pc=0000360c rd=7 data=00000007 wsel=1 ramrop=1
+STATELOAD cycle=13872104 pc=00003610 addr=0000d75c ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13872125 pc=00003610 rd=10 data=0000002b wsel=1 ramrop=3
+STATEWB cycle=13872139 pc=00003614 rd=12 data=00000008 wsel=0 ramrop=0
+STATEWB cycle=13872207 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13872221 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13872235 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13874476 pc=000035fc rd=5 data=0000001c wsel=0 ramrop=0
+STATEWB cycle=13874490 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13874504 pc=00003604 rd=6 data=000256bc wsel=0 ramrop=0
+STATELOAD cycle=13874517 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13874538 pc=00003608 rd=14 data=0000d765 wsel=1 ramrop=1
+STATELOAD cycle=13874551 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13874572 pc=0000360c rd=7 data=00000004 wsel=1 ramrop=1
+STATELOAD cycle=13874585 pc=00003610 addr=0000d765 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13874606 pc=00003610 rd=10 data=0000002b wsel=1 ramrop=3
+STATEWB cycle=13874620 pc=00003614 rd=12 data=00000005 wsel=0 ramrop=0
+STATEWB cycle=13874688 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13874702 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13874716 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13876957 pc=000035fc rd=5 data=0000001c wsel=0 ramrop=0
+STATEWB cycle=13876971 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13876985 pc=00003604 rd=6 data=000256bc wsel=0 ramrop=0
+STATELOAD cycle=13876998 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13877019 pc=00003608 rd=14 data=0000d76e wsel=1 ramrop=1
+STATELOAD cycle=13877032 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13877053 pc=0000360c rd=7 data=00000005 wsel=1 ramrop=1
+STATELOAD cycle=13877066 pc=00003610 addr=0000d76e ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13877087 pc=00003610 rd=10 data=00000033 wsel=1 ramrop=3
+STATEWB cycle=13877101 pc=00003614 rd=12 data=00000006 wsel=0 ramrop=0
+STATEWB cycle=13877169 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13877183 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATEWB cycle=13877197 pc=000035f8 rd=1 data=000035fc wsel=2 ramrop=0
+STATEWB cycle=13878929 pc=000035fc rd=5 data=00000004 wsel=0 ramrop=0
+STATEWB cycle=13878943 pc=00003600 rd=15 data=000256a0 wsel=0 ramrop=0
+STATEWB cycle=13878957 pc=00003604 rd=6 data=000256a4 wsel=0 ramrop=0
+STATELOAD cycle=13878970 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATEWB cycle=13878991 pc=00003608 rd=14 data=0000d775 wsel=1 ramrop=1
+STATELOAD cycle=13879004 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATEWB cycle=13879025 pc=0000360c rd=7 data=0000000c wsel=1 ramrop=1
+STATELOAD cycle=13879038 pc=00003610 addr=0000d775 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATEWB cycle=13879059 pc=00003610 rd=10 data=0000005e wsel=1 ramrop=3
+STATEWB cycle=13879073 pc=00003614 rd=12 data=0000000d wsel=0 ramrop=0
+STATEWB cycle=13879141 pc=000035f0 rd=11 data=00025680 wsel=0 ramrop=0
+STATEWB cycle=13879155 pc=000035f4 rd=10 data=0002565c wsel=0 ramrop=0
+STATELOAD cycle=13879761 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13879795 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13879829 pc=00003610 addr=0000d776 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13880315 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13880349 pc=0000360c addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13880383 pc=00003610 addr=0000d777 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13881637 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13881671 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13881705 pc=00003610 addr=0000d77c ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13882959 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13882993 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13883027 pc=00003610 addr=0000d781 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13884281 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13884315 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13884349 pc=00003610 addr=0000d786 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13886589 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13886623 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13886657 pc=00003610 addr=0000d78f ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13888897 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13888931 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13888965 pc=00003610 addr=0000d798 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13891306 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13891340 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13891374 pc=00003610 addr=0000d7a1 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13893715 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13893749 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13893783 pc=00003610 addr=0000d7aa ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13894506 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13894540 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13894574 pc=00003610 addr=0000d7ab ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13896567 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13896601 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13896635 pc=00003610 addr=0000d7b2 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13897121 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13897155 pc=0000360c addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13897189 pc=00003610 addr=0000d7b3 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13898443 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13898477 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13898511 pc=00003610 addr=0000d7b8 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13899765 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13899799 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13899833 pc=00003610 addr=0000d7bd ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13901087 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13901121 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13901155 pc=00003610 addr=0000d7c2 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13903602 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13903636 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13903670 pc=00003610 addr=0000d7cb ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13906117 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13906151 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13906185 pc=00003610 addr=0000d7d4 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13908673 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13908707 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13908741 pc=00003610 addr=0000d7dd ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13911229 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13911263 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13911297 pc=00003610 addr=0000d7e6 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13912178 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13912212 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13912246 pc=00003610 addr=0000d7e8 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13913238 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13913272 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13913306 pc=00003610 addr=0000d7ea ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13914159 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13914193 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13914227 pc=00003610 addr=0000d7ec ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13914950 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13914984 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13915018 pc=00003610 addr=0000d7ed ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13915741 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13915775 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13915809 pc=00003610 addr=0000d7ee ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13916295 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13916329 pc=0000360c addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13916363 pc=00003610 addr=0000d7ef ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13917799 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13917833 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13917867 pc=00003610 addr=0000d7f4 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13919303 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13919337 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13919371 pc=00003610 addr=0000d7f9 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13920807 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13920841 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13920875 pc=00003610 addr=0000d7fe ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13923215 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13923249 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13923283 pc=00003610 addr=0000d807 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13925623 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13925657 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13925691 pc=00003610 addr=0000d810 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13927072 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13927106 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13927140 pc=00003610 addr=0000d814 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13928548 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13928582 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13928616 pc=00003610 addr=0000d819 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13929997 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13930031 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13930065 pc=00003610 addr=0000d81d ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13931473 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13931507 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13931541 pc=00003610 addr=0000d822 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13932368 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13932402 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13932436 pc=00003610 addr=0000d824 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13933960 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13933994 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13934028 pc=00003610 addr=0000d829 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13934751 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13934785 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13934819 pc=00003610 addr=0000d82a ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13935305 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13935339 pc=0000360c addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13935373 pc=00003610 addr=0000d82b ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13936781 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13936815 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13936849 pc=00003610 addr=0000d830 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13938257 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13938291 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13938325 pc=00003610 addr=0000d835 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13939733 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13939767 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13939801 pc=00003610 addr=0000d83a ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13942247 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13942281 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13942315 pc=00003610 addr=0000d843 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13944761 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13944795 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13944829 pc=00003610 addr=0000d84c ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13947242 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13947276 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13947310 pc=00003610 addr=0000d855 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13949723 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13949757 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13949791 pc=00003610 addr=0000d85e ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13951695 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13951729 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13951763 pc=00003610 addr=0000d865 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13952486 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13952520 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13952554 pc=00003610 addr=0000d866 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13953040 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13953074 pc=0000360c addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13953108 pc=00003610 addr=0000d867 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13954362 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13954396 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13954430 pc=00003610 addr=0000d86c ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13955684 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13955718 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13955752 pc=00003610 addr=0000d871 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13957006 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13957040 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13957074 pc=00003610 addr=0000d876 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13959314 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13959348 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13959382 pc=00003610 addr=0000d87f ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13961622 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13961656 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13961690 pc=00003610 addr=0000d888 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13964031 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13964065 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13964099 pc=00003610 addr=0000d891 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13966440 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13966474 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13966508 pc=00003610 addr=0000d89a ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13967231 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13967265 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13967299 pc=00003610 addr=0000d89b ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13969292 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13969326 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13969360 pc=00003610 addr=0000d8a2 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13969846 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13969880 pc=0000360c addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13969914 pc=00003610 addr=0000d8a3 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13971168 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13971202 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13971236 pc=00003610 addr=0000d8a8 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13972490 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13972524 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13972558 pc=00003610 addr=0000d8ad ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13973812 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13973846 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13973880 pc=00003610 addr=0000d8b2 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13976327 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13976361 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13976395 pc=00003610 addr=0000d8bb ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13978842 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13978876 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13978910 pc=00003610 addr=0000d8c4 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13981398 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13981432 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13981466 pc=00003610 addr=0000d8cd ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13983954 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13983988 pc=0000360c addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13984022 pc=00003610 addr=0000d8d6 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13984903 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13984937 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13984971 pc=00003610 addr=0000d8d8 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13985963 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13985997 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13986031 pc=00003610 addr=0000d8da ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13986884 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13986918 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13986952 pc=00003610 addr=0000d8dc ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13987675 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13987709 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13987743 pc=00003610 addr=0000d8dd ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13988466 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13988500 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13988534 pc=00003610 addr=0000d8de ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13989020 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13989054 pc=0000360c addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13989088 pc=00003610 addr=0000d8df ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13990524 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13990558 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13990592 pc=00003610 addr=0000d8e4 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13992028 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13992062 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13992096 pc=00003610 addr=0000d8e9 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13993532 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13993566 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13993600 pc=00003610 addr=0000d8ee ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13995940 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13995974 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13996008 pc=00003610 addr=0000d8f7 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13998348 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13998382 pc=0000360c addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13998416 pc=00003610 addr=0000d900 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=13999797 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=13999831 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=13999865 pc=00003610 addr=0000d904 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=14001273 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=14001307 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=14001341 pc=00003610 addr=0000d909 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=14002722 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=14002756 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=14002790 pc=00003610 addr=0000d90d ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=14004198 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=14004232 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=14004266 pc=00003610 addr=0000d912 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=14005093 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=14005127 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=14005161 pc=00003610 addr=0000d914 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=14006685 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=14006719 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=14006753 pc=00003610 addr=0000d919 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=14007476 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=14007510 pc=0000360c addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=14007544 pc=00003610 addr=0000d91a ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=14008030 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=14008064 pc=0000360c addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=14008098 pc=00003610 addr=0000d91b ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=14009506 pc=00003608 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=14
+STATELOAD cycle=14009540 pc=0000360c addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=7
+STATELOAD cycle=14009574 pc=00003610 addr=0000d920 ren=f rdata=00000000 rvalid=0 exmem_rd=10
+STATELOAD cycle=14009678 pc=00003628 addr=0000d68c ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14009837 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14009953 pc=00003644 addr=0000d6ae ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14010029 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14010145 pc=00003644 addr=0000d6d0 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14010221 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14010337 pc=00003644 addr=0000d6f2 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14010413 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14010529 pc=00003644 addr=0000d714 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14010605 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14010721 pc=00003644 addr=0000d736 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14010797 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14010913 pc=00003644 addr=0000d758 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14010989 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14011105 pc=00003644 addr=0000d77a ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14011181 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14011297 pc=00003644 addr=0000d79c ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14011373 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14011489 pc=00003644 addr=0000d7be ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14011565 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14011681 pc=00003644 addr=0000d7e0 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14011757 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14011873 pc=00003644 addr=0000d802 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14011949 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14012065 pc=00003644 addr=0000d824 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14012141 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14012257 pc=00003644 addr=0000d846 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14012333 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14012449 pc=00003644 addr=0000d868 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14012525 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14012641 pc=00003644 addr=0000d88a ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14012717 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14012833 pc=00003644 addr=0000d8ac ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14012990 pc=00003644 addr=0000d8ce ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14013066 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14013182 pc=00003644 addr=0000d8f0 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14013258 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14013374 pc=00003644 addr=0000d912 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14013450 pc=00003654 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14013526 pc=00003664 addr=0000d68c ren=f rdata=00000000 rvalid=0 exmem_rd=28
+STATELOAD cycle=14014768 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14014802 pc=00003694 addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14014836 pc=00003698 addr=0000d691 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14016090 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14016124 pc=00003694 addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14016158 pc=00003698 addr=0000d696 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14018398 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14018432 pc=00003694 addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14018466 pc=00003698 addr=0000d69f ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14020706 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14020740 pc=00003694 addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14020774 pc=00003698 addr=0000d6a8 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14023115 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14023149 pc=00003694 addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14023183 pc=00003698 addr=0000d6b1 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14025524 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14025558 pc=00003694 addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14025592 pc=00003698 addr=0000d6ba ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14026315 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14026349 pc=00003694 addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14026383 pc=00003698 addr=0000d6bb ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14028376 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14028410 pc=00003694 addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14028444 pc=00003698 addr=0000d6c2 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14028930 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14028964 pc=00003694 addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14028998 pc=00003698 addr=0000d6c3 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14030252 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14030286 pc=00003694 addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14030320 pc=00003698 addr=0000d6c8 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14031574 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14031608 pc=00003694 addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14031642 pc=00003698 addr=0000d6cd ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14032896 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14032930 pc=00003694 addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14032964 pc=00003698 addr=0000d6d2 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14035411 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14035445 pc=00003694 addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14035479 pc=00003698 addr=0000d6db ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14037926 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14037960 pc=00003694 addr=00025674 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14037994 pc=00003698 addr=0000d6e4 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14040482 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14040516 pc=00003694 addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14040550 pc=00003698 addr=0000d6ed ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14043038 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14043072 pc=00003694 addr=0002567c ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14043106 pc=00003698 addr=0000d6f6 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14043987 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14044021 pc=00003694 addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14044055 pc=00003698 addr=0000d6f8 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14045047 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14045081 pc=00003694 addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14045115 pc=00003698 addr=0000d6fa ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14045968 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14046002 pc=00003694 addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14046036 pc=00003698 addr=0000d6fc ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14046759 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14046793 pc=00003694 addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14046827 pc=00003698 addr=0000d6fd ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14047550 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14047584 pc=00003694 addr=00025664 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14047618 pc=00003698 addr=0000d6fe ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14048104 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14048138 pc=00003694 addr=00025660 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14048172 pc=00003698 addr=0000d6ff ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14049608 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14049642 pc=00003694 addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14049676 pc=00003698 addr=0000d704 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14051112 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14051146 pc=00003694 addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14051180 pc=00003698 addr=0000d709 ren=f rdata=00000000 rvalid=0 exmem_rd=16
+STATELOAD cycle=14052616 pc=00003690 addr=0002565c ren=f rdata=00000000 rvalid=0 exmem_rd=22
+STATELOAD cycle=14052650 pc=00003694 addr=00025670 ren=f rdata=00000000 rvalid=0 exmem_rd=11
+STATELOAD cycle=14052684 pc=00003698 addr=0000d70e ren=f rdata=00000000 rvalid=0 exmem_rd=16
+PROBE cycle=15000000 pc=000033ac if_id=00000000 ex_mem=000033ac rstate=1 wstate=0 arvalid=1 rvalid=0 awvalid=0 wvalid=0 bvalid=0 x16=0002565c x17=00000038 x18=00000022 x20=0000d68c x21=0000d926 x22=0000d704
+PROBE cycle=20000000 pc=0000103c if_id=00000000 ex_mem=0000103c rstate=0 wstate=0 arvalid=0 rvalid=0 awvalid=0 wvalid=0 bvalid=0 x16=00000009 x17=0000001f x18=0000d168 x20=0000001f x21=00000001 x22=00000001
+PROBE cycle=25000000 pc=00005e98 if_id=00000000 ex_mem=00005e98 rstate=2 wstate=0 arvalid=0 rvalid=0 awvalid=0 wvalid=0 bvalid=0 x16=ffffa000 x17=ffffa001 x18=0000d44e x20=0000d5d8 x21=0000d43c x22=00000004
+LATEWB cycle=28262856 pc=00003584 rd=20 data=0000d68c wsel=0 ramrop=0
+LATEWB cycle=28263156 pc=000035d4 rd=21 data=0000029a wsel=0 ramrop=0
+LATEWB cycle=28263170 pc=000035d8 rd=22 data=00000000 wsel=0 ramrop=0
+LATEWB cycle=28463836 pc=00003624 rd=21 data=0000d926 wsel=0 ramrop=0
+LATEWB cycle=28468960 pc=00003690 rd=22 data=0000d691 wsel=1 ramrop=1
+LATEWB cycle=28470282 pc=00003690 rd=22 data=0000d696 wsel=1 ramrop=1
+LATEWB cycle=28472590 pc=00003690 rd=22 data=0000d69f wsel=1 ramrop=1
+LATEWB cycle=28474898 pc=00003690 rd=22 data=0000d6a8 wsel=1 ramrop=1
+LATEWB cycle=28477307 pc=00003690 rd=22 data=0000d6b1 wsel=1 ramrop=1
+LATEWB cycle=28479716 pc=00003690 rd=22 data=0000d6ba wsel=1 ramrop=1
+LATEWB cycle=28480507 pc=00003690 rd=22 data=0000d6bb wsel=1 ramrop=1
+LATEWB cycle=28482568 pc=00003690 rd=22 data=0000d6c2 wsel=1 ramrop=1
+LATEWB cycle=28483122 pc=00003690 rd=22 data=0000d6c3 wsel=1 ramrop=1
+LATEWB cycle=28484444 pc=00003690 rd=22 data=0000d6c8 wsel=1 ramrop=1
+LATEWB cycle=28485766 pc=00003690 rd=22 data=0000d6cd wsel=1 ramrop=1
+LATEWB cycle=28487088 pc=00003690 rd=22 data=0000d6d2 wsel=1 ramrop=1
+LATEWB cycle=28489603 pc=00003690 rd=22 data=0000d6db wsel=1 ramrop=1
+LATEWB cycle=28492118 pc=00003690 rd=22 data=0000d6e4 wsel=1 ramrop=1
+LATEWB cycle=28494674 pc=00003690 rd=22 data=0000d6ed wsel=1 ramrop=1
+LATEWB cycle=28497230 pc=00003690 rd=22 data=0000d6f6 wsel=1 ramrop=1
+LATEWB cycle=28498179 pc=00003690 rd=22 data=0000d6f8 wsel=1 ramrop=1
+LATEWB cycle=28499239 pc=00003690 rd=22 data=0000d6fa wsel=1 ramrop=1
+LATEWB cycle=28500160 pc=00003690 rd=22 data=0000d6fc wsel=1 ramrop=1
+LATEWB cycle=28500951 pc=00003690 rd=22 data=0000d6fd wsel=1 ramrop=1
+LATEWB cycle=28501742 pc=00003690 rd=22 data=0000d6fe wsel=1 ramrop=1
+LATEWB cycle=28502296 pc=00003690 rd=22 data=0000d6ff wsel=1 ramrop=1
+LATEWB cycle=28503800 pc=00003690 rd=22 data=0000d704 wsel=1 ramrop=1
+LATEWB cycle=28505304 pc=00003690 rd=22 data=0000d709 wsel=1 ramrop=1
+LATEWB cycle=28506808 pc=00003690 rd=22 data=0000d70e wsel=1 ramrop=1
+LATEWB cycle=28509216 pc=00003690 rd=22 data=0000d717 wsel=1 ramrop=1
+LATEWB cycle=28511624 pc=00003690 rd=22 data=0000d720 wsel=1 ramrop=1
+LATEWB cycle=28513073 pc=00003690 rd=22 data=0000d724 wsel=1 ramrop=1
+LATEWB cycle=28514549 pc=00003690 rd=22 data=0000d729 wsel=1 ramrop=1
+LATEWB cycle=28515998 pc=00003690 rd=22 data=0000d72d wsel=1 ramrop=1
+LATEWB cycle=28517474 pc=00003690 rd=22 data=0000d732 wsel=1 ramrop=1
+LATEWB cycle=28518369 pc=00003690 rd=22 data=0000d734 wsel=1 ramrop=1
+LATEWB cycle=28519961 pc=00003690 rd=22 data=0000d739 wsel=1 ramrop=1
+LATEWB cycle=28520752 pc=00003690 rd=22 data=0000d73a wsel=1 ramrop=1
+LATEWB cycle=28521306 pc=00003690 rd=22 data=0000d73b wsel=1 ramrop=1
+LATEWB cycle=28522782 pc=00003690 rd=22 data=0000d740 wsel=1 ramrop=1
+LATEWB cycle=28524258 pc=00003690 rd=22 data=0000d745 wsel=1 ramrop=1
+LATEWB cycle=28525734 pc=00003690 rd=22 data=0000d74a wsel=1 ramrop=1
+LATEWB cycle=28528248 pc=00003690 rd=22 data=0000d753 wsel=1 ramrop=1
+LATEWB cycle=28530762 pc=00003690 rd=22 data=0000d75c wsel=1 ramrop=1
+LATEWB cycle=28533243 pc=00003690 rd=22 data=0000d765 wsel=1 ramrop=1
+LATEWB cycle=28535724 pc=00003690 rd=22 data=0000d76e wsel=1 ramrop=1
+LATEWB cycle=28537696 pc=00003690 rd=22 data=0000d775 wsel=1 ramrop=1
+LATEWB cycle=28538487 pc=00003690 rd=22 data=0000d776 wsel=1 ramrop=1
+LATEWB cycle=28539041 pc=00003690 rd=22 data=0000d777 wsel=1 ramrop=1
+LATEWB cycle=28540363 pc=00003690 rd=22 data=0000d77c wsel=1 ramrop=1
+LATEWB cycle=28541685 pc=00003690 rd=22 data=0000d781 wsel=1 ramrop=1
+LATEWB cycle=28543007 pc=00003690 rd=22 data=0000d786 wsel=1 ramrop=1
+LATEWB cycle=28545315 pc=00003690 rd=22 data=0000d78f wsel=1 ramrop=1
+LATEWB cycle=28547623 pc=00003690 rd=22 data=0000d798 wsel=1 ramrop=1
+LATEWB cycle=28550032 pc=00003690 rd=22 data=0000d7a1 wsel=1 ramrop=1
+LATEWB cycle=28552441 pc=00003690 rd=22 data=0000d7aa wsel=1 ramrop=1
+LATEWB cycle=28553232 pc=00003690 rd=22 data=0000d7ab wsel=1 ramrop=1
+LATEWB cycle=28555293 pc=00003690 rd=22 data=0000d7b2 wsel=1 ramrop=1
+LATEWB cycle=28555847 pc=00003690 rd=22 data=0000d7b3 wsel=1 ramrop=1
+LATEWB cycle=28557169 pc=00003690 rd=22 data=0000d7b8 wsel=1 ramrop=1
+LATEWB cycle=28558491 pc=00003690 rd=22 data=0000d7bd wsel=1 ramrop=1
+LATEWB cycle=28559813 pc=00003690 rd=22 data=0000d7c2 wsel=1 ramrop=1
+LATEWB cycle=28562328 pc=00003690 rd=22 data=0000d7cb wsel=1 ramrop=1
+LATEWB cycle=28564843 pc=00003690 rd=22 data=0000d7d4 wsel=1 ramrop=1
+LATEWB cycle=28567399 pc=00003690 rd=22 data=0000d7dd wsel=1 ramrop=1
+LATEWB cycle=28569955 pc=00003690 rd=22 data=0000d7e6 wsel=1 ramrop=1
+LATEWB cycle=28570904 pc=00003690 rd=22 data=0000d7e8 wsel=1 ramrop=1
+LATEWB cycle=28571964 pc=00003690 rd=22 data=0000d7ea wsel=1 ramrop=1
+LATEWB cycle=28572885 pc=00003690 rd=22 data=0000d7ec wsel=1 ramrop=1
+LATEWB cycle=28573676 pc=00003690 rd=22 data=0000d7ed wsel=1 ramrop=1
+LATEWB cycle=28574467 pc=00003690 rd=22 data=0000d7ee wsel=1 ramrop=1
+LATEWB cycle=28575021 pc=00003690 rd=22 data=0000d7ef wsel=1 ramrop=1
+LATEWB cycle=28576525 pc=00003690 rd=22 data=0000d7f4 wsel=1 ramrop=1
+LATEWB cycle=28578029 pc=00003690 rd=22 data=0000d7f9 wsel=1 ramrop=1
+LATEWB cycle=28579533 pc=00003690 rd=22 data=0000d7fe wsel=1 ramrop=1
+LATEWB cycle=28581941 pc=00003690 rd=22 data=0000d807 wsel=1 ramrop=1
+LATEWB cycle=28584349 pc=00003690 rd=22 data=0000d810 wsel=1 ramrop=1
+LATEWB cycle=28585798 pc=00003690 rd=22 data=0000d814 wsel=1 ramrop=1
+LATEWB cycle=28587274 pc=00003690 rd=22 data=0000d819 wsel=1 ramrop=1
+LATEWB cycle=28588723 pc=00003690 rd=22 data=0000d81d wsel=1 ramrop=1
+PROBE cycle=30000000 pc=00005e94 if_id=00000000 ex_mem=00005e94 rstate=2 wstate=0 arvalid=0 rvalid=0 awvalid=0 wvalid=0 bvalid=0 x16=000019dc x17=000019dc x18=0000d544 x20=0000d4d2 x21=00001110 x22=0000d3f4
+TIMEOUT
+- rtl_axi_probe.sv:281: Verilog $finish

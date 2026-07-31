@@ -3,10 +3,10 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Wed Jul 29 11:45:14 2026
-# Process ID         : 31196
+# Start of session at: Fri Jul 31 18:17:39 2026
+# Process ID         : 64320
 # Current directory  : D:/cpu-design/miniRV-with-SoC
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent9492 D:\cpu-design\miniRV-with-SoC\miniRV.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent63016 D:\cpu-design\miniRV-with-SoC\miniRV.xpr
 # Log file           : D:/cpu-design/miniRV-with-SoC/vivado.log
 # Journal file       : D:/cpu-design/miniRV-with-SoC\vivado.jou
 # Running On         : LAPTOP-1C1u4O
@@ -17,115 +17,21 @@
 # CPU Physical cores : 14
 # CPU Logical cores  : 18
 # Host memory        : 33945 MB
-# Swap memory        : 5100 MB
-# Total Virtual      : 39046 MB
-# Available Virtual  : 16034 MB
+# Swap memory        : 5343 MB
+# Total Virtual      : 39289 MB
+# Available Virtual  : 11024 MB
 #-----------------------------------------------------------
 start_gui
 open_project D:/cpu-design/miniRV-with-SoC/miniRV.xpr
 update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-launch_runs impl_1
-wait_on_run impl_1
-copy_run -name synth_1_copy_1 [get_runs synth_1] 
-set_property part xc7a100tfgg484-1 [current_project]
-report_ip_status -name ip_status 
-upgrade_ip -srcset DRAM [get_ips  {DRAM IROM axi_crossbar_0 axi_gpio_0 axi_gpio_1 axi_gpio_2 axi_gpio_3 axi_protocol_converter_0 axi_uartlite_0 blk_mem_gen_1 bram_axi clk_wiz_0}] -log ip_upgrade.log
-export_ip_user_files -of_objects [get_ips {DRAM IROM axi_crossbar_0 axi_gpio_0 axi_gpio_1 axi_gpio_2 axi_gpio_3 axi_protocol_converter_0 axi_uartlite_0 blk_mem_gen_1 bram_axi clk_wiz_0}] -no_script -sync -force -quiet
-update_compile_order -fileset sources_1
-report_ip_status -name ip_status 
-set_property CONFIG.Write_Depth_A {112640} [get_ips bram_axi]
-generate_target all [get_files  D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-catch { config_ip_cache -export [get_ips -all bram_axi] }
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-launch_runs bram_axi_synth_1
-wait_on_run bram_axi_synth_1
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-copy_run -name impl_1_copy_1 [get_runs impl_1] -parent_run synth_1
-set_property part xc7a35tcsg324-1 [current_project]
-report_ip_status -name ip_status 
-upgrade_ip [get_ips  {DRAM IROM axi_crossbar_0 axi_gpio_0 axi_gpio_1 axi_gpio_2 axi_gpio_3 axi_protocol_converter_0 axi_uartlite_0 blk_mem_gen_1 bram_axi clk_wiz_0}] -log ip_upgrade.log
-export_ip_user_files -of_objects [get_ips {DRAM IROM axi_crossbar_0 axi_gpio_0 axi_gpio_1 axi_gpio_2 axi_gpio_3 axi_protocol_converter_0 axi_uartlite_0 blk_mem_gen_1 bram_axi clk_wiz_0}] -no_script -sync -force -quiet
-update_compile_order -fileset sources_1
-generate_target all [get_files  {D:/cpu-design/miniRV-with-SoC/src/rtl/ip/DRAM/DRAM.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/IROM/IROM.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1/blk_mem_gen_1.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci}]
-catch { config_ip_cache -export [get_ips -all DRAM] }
-catch { config_ip_cache -export [get_ips -all IROM] }
-catch { config_ip_cache -export [get_ips -all axi_crossbar_0] }
-catch { config_ip_cache -export [get_ips -all axi_gpio_0] }
-catch { config_ip_cache -export [get_ips -all axi_gpio_1] }
-catch { config_ip_cache -export [get_ips -all axi_gpio_2] }
-catch { config_ip_cache -export [get_ips -all axi_gpio_3] }
-catch { config_ip_cache -export [get_ips -all axi_protocol_converter_0] }
-catch { config_ip_cache -export [get_ips -all axi_uartlite_0] }
-catch { config_ip_cache -export [get_ips -all blk_mem_gen_1] }
-catch { config_ip_cache -export [get_ips -all bram_axi] }
-catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/DRAM/DRAM.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/IROM/IROM.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1/blk_mem_gen_1.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/DRAM/DRAM.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/IROM/IROM.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1/blk_mem_gen_1.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci]
-launch_runs axi_gpio_1_synth_1 bram_axi_synth_1
-wait_on_run axi_gpio_1_synth_1
-wait_on_run bram_axi_synth_1
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/DRAM/DRAM.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/IROM/IROM.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1/blk_mem_gen_1.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-report_ip_status -name ip_status 
-reset_property  ALL_PROPS  [get_ips bram_axi]
-set_property -dict [list \
-  CONFIG.Interface_Type {AXI4} \
-  CONFIG.Write_Depth_A {38400} \
-] [get_ips bram_axi]
-generate_target all [get_files  D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-catch { config_ip_cache -export [get_ips -all bram_axi] }
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -no_script -sync -force -quiet
-reset_run bram_axi_synth_1
-launch_runs bram_axi_synth_1
-wait_on_run bram_axi_synth_1
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-report_ip_status -name ip_status 
-set_property -dict [list \
-  CONFIG.Coe_File {D:/cpu-design/miniRV-with-SoC/src/coe/lw.coe} \
-  CONFIG.EN_SAFETY_CKT {false} \
-  CONFIG.Fill_Remaining_Memory_Locations {true} \
-  CONFIG.Load_Init_File {true} \
-] [get_ips bram_axi]
-generate_target all [get_files  D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-catch { config_ip_cache -export [get_ips -all bram_axi] }
-catch { [ delete_ip_run [get_ips -all bram_axi] ] }
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/cpu-design/miniRV-with-SoC/miniRV.runs/impl_1/miniRV_SoC.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/cpu-design/miniRV-with-SoC/miniRV.runs/impl_1/miniRV_SoC.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

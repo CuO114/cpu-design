@@ -3,10 +3,10 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Wed Jul 29 11:45:14 2026
-# Process ID         : 31196
+# Start of session at: Fri Jul 31 18:17:39 2026
+# Process ID         : 64320
 # Current directory  : D:/cpu-design/miniRV-with-SoC
-# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent9492 D:\cpu-design\miniRV-with-SoC\miniRV.xpr
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent63016 D:\cpu-design\miniRV-with-SoC\miniRV.xpr
 # Log file           : D:/cpu-design/miniRV-with-SoC/vivado.log
 # Journal file       : D:/cpu-design/miniRV-with-SoC\vivado.jou
 # Running On         : LAPTOP-1C1u4O
@@ -17,9 +17,9 @@
 # CPU Physical cores : 14
 # CPU Logical cores  : 18
 # Host memory        : 33945 MB
-# Swap memory        : 5100 MB
-# Total Virtual      : 39046 MB
-# Available Virtual  : 16034 MB
+# Swap memory        : 5343 MB
+# Total Virtual      : 39289 MB
+# Available Virtual  : 11024 MB
 #-----------------------------------------------------------
 start_gui
 open_project D:/cpu-design/miniRV-with-SoC/miniRV.xpr
@@ -87,546 +87,45 @@ WARNING: [Project 1-5713] Board part '' set for the project  is not found. Board
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/2025.1/Vivado/data/ip'.
-open_project: Time (s): cpu = 00:00:49 ; elapsed = 00:00:25 . Memory (MB): peak = 1799.895 ; gain = 263.082
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:15 . Memory (MB): peak = 1790.430 ; gain = 307.797
 update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs synth_1
-[Wed Jul 29 11:46:37 2026] Launched synth_1...
-Run output will be captured here: D:/cpu-design/miniRV-with-SoC/miniRV.runs/synth_1/runme.log
-launch_runs impl_1
-[Wed Jul 29 11:48:59 2026] Launched impl_1...
-Run output will be captured here: D:/cpu-design/miniRV-with-SoC/miniRV.runs/impl_1/runme.log
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-INFO: [IP_Flow 19-3484] Absolute path of file 'd:/downloads/coremark.coe' provided. It will be converted relative to IP Instance files '../../../../../../downloads/coremark.coe'
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-copy_run -name synth_1_copy_1 [get_runs synth_1] 
-synth_1_copy_1
-set_property part xc7a100tfgg484-1 [current_project]
-WARNING: [IP_Flow 19-2162] IP 'DRAM' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'DRAM' do not match.
-WARNING: [IP_Flow 19-2162] IP 'IROM' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'IROM' do not match.
-WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'clk_wiz_0' do not match.
-WARNING: [IP_Flow 19-2162] IP 'bram_axi' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'bram_axi' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_protocol_converter_0' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'axi_protocol_converter_0' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_gpio_0' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'axi_gpio_0' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_uartlite_0' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'axi_uartlite_0' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_gpio_1' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'axi_gpio_1' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_gpio_2' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'axi_gpio_2' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_gpio_3' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'axi_gpio_3' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_crossbar_0' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'axi_crossbar_0' do not match.
-WARNING: [IP_Flow 19-2162] IP 'blk_mem_gen_1' is locked:
-* Current project part 'xc7a100tfgg484-1' and the part 'xc7a35tcsg324-1' used to customize the IP 'blk_mem_gen_1' do not match.
-report_ip_status -name ip_status 
-upgrade_ip -srcset DRAM [get_ips  {DRAM IROM axi_crossbar_0 axi_gpio_0 axi_gpio_1 axi_gpio_2 axi_gpio_3 axi_protocol_converter_0 axi_uartlite_0 blk_mem_gen_1 bram_axi clk_wiz_0}] -log ip_upgrade.log
-Upgrading 'DRAM'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/DRAM/DRAM.xci' from fileset 'DRAM' to fileset 'sources_1'.
-INFO: [IP_Flow 19-3420] Updated DRAM to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'DRAM'...
-Upgrading 'IROM'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/IROM/IROM.xci' from fileset 'IROM' to fileset 'sources_1'.
-INFO: [IP_Flow 19-3420] Updated IROM to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'IROM'...
-Upgrading 'axi_crossbar_0'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci' from fileset 'axi_crossbar_0' to fileset 'sources_1'.
-INFO: [IP_Flow 19-3420] Updated axi_crossbar_0 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_crossbar_0'...
-Upgrading 'axi_gpio_0'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci' from fileset 'axi_gpio_0' to fileset 'sources_1'.
-INFO: [IP_Flow 19-3420] Updated axi_gpio_0 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_gpio_0'...
-Upgrading 'axi_gpio_1'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci' from fileset 'axi_gpio_1' to fileset 'sources_1'.
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'C_GPIO2_WIDTH' from '32' to '16' has been ignored for IP 'axi_gpio_1'
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'C_ALL_OUTPUTS_2' from '0' to '1' has been ignored for IP 'axi_gpio_1'
-INFO: [IP_Flow 19-3420] Updated axi_gpio_1 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_gpio_1'...
-CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'axi_gpio_1' has identified issues that may require user intervention. Please review the upgrade log 'd:/cpu-design/miniRV-with-SoC/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
-Upgrading 'axi_gpio_2'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci' from fileset 'axi_gpio_2' to fileset 'sources_1'.
-INFO: [IP_Flow 19-3420] Updated axi_gpio_2 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_gpio_2'...
-Upgrading 'axi_gpio_3'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci' from fileset 'axi_gpio_3' to fileset 'sources_1'.
-INFO: [IP_Flow 19-3420] Updated axi_gpio_3 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_gpio_3'...
-Upgrading 'axi_protocol_converter_0'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci' from fileset 'axi_protocol_converter_0' to fileset 'sources_1'.
-INFO: [IP_Flow 19-3420] Updated axi_protocol_converter_0 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_protocol_converter_0'...
-Upgrading 'axi_uartlite_0'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci' from fileset 'axi_uartlite_0' to fileset 'sources_1'.
-INFO: [IP_Flow 19-3420] Updated axi_uartlite_0 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_uartlite_0'...
-Upgrading 'blk_mem_gen_1'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1/blk_mem_gen_1.xci' from fileset 'blk_mem_gen_1' to fileset 'sources_1'.
-INFO: [IP_Flow 19-3420] Updated blk_mem_gen_1 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_1'...
-Upgrading 'bram_axi'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci' from fileset 'bram_axi' to fileset 'sources_1'.
-INFO: [IP_Flow 19-3420] Updated bram_axi to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'bram_axi'...
-Upgrading 'clk_wiz_0'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci' from fileset 'clk_wiz_0' to fileset 'sources_1'.
-INFO: [Device 21-403] Loading part xc7a100tfgg484-1
-INFO: [IP_Flow 19-3420] Updated clk_wiz_0 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
-INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/cpu-design/miniRV-with-SoC/ip_upgrade.log'.
-upgrade_ip: Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2175.926 ; gain = 251.219
-export_ip_user_files -of_objects [get_ips {DRAM IROM axi_crossbar_0 axi_gpio_0 axi_gpio_1 axi_gpio_2 axi_gpio_3 axi_protocol_converter_0 axi_uartlite_0 blk_mem_gen_1 bram_axi clk_wiz_0}] -no_script -sync -force -quiet
-update_compile_order -fileset sources_1
-report_ip_status -name ip_status 
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-set_property CONFIG.Write_Depth_A {112640} [get_ips bram_axi]
-generate_target all [get_files  D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'bram_axi'...
-catch { config_ip_cache -export [get_ips -all bram_axi] }
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-launch_runs bram_axi_synth_1
-[Wed Jul 29 11:59:08 2026] Launched bram_axi_synth_1...
-Run output will be captured here: D:/cpu-design/miniRV-with-SoC/miniRV.runs/bram_axi_synth_1/runme.log
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-copy_run -name impl_1_copy_1 [get_runs impl_1] -parent_run synth_1
-copy_run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2315.965 ; gain = 0.000
-impl_1_copy_1
-set_property part xc7a35tcsg324-1 [current_project]
-WARNING: [IP_Flow 19-2162] IP 'axi_protocol_converter_0' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'axi_protocol_converter_0' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_gpio_3' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'axi_gpio_3' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_gpio_2' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'axi_gpio_2' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_gpio_1' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'axi_gpio_1' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_uartlite_0' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'axi_uartlite_0' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_gpio_0' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'axi_gpio_0' do not match.
-WARNING: [IP_Flow 19-2162] IP 'axi_crossbar_0' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'axi_crossbar_0' do not match.
-WARNING: [IP_Flow 19-2162] IP 'blk_mem_gen_1' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'blk_mem_gen_1' do not match.
-WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'clk_wiz_0' do not match.
-WARNING: [IP_Flow 19-2162] IP 'DRAM' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'DRAM' do not match.
-WARNING: [IP_Flow 19-2162] IP 'IROM' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'IROM' do not match.
-WARNING: [IP_Flow 19-2162] IP 'bram_axi' is locked:
-* Current project part 'xc7a35tcsg324-1' and the part 'xc7a100tfgg484-1' used to customize the IP 'bram_axi' do not match.
-report_ip_status -name ip_status 
-upgrade_ip [get_ips  {DRAM IROM axi_crossbar_0 axi_gpio_0 axi_gpio_1 axi_gpio_2 axi_gpio_3 axi_protocol_converter_0 axi_uartlite_0 blk_mem_gen_1 bram_axi clk_wiz_0}] -log ip_upgrade.log
-Upgrading 'DRAM'
-INFO: [IP_Flow 19-3420] Updated DRAM to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'DRAM'...
-Upgrading 'IROM'
-INFO: [IP_Flow 19-3420] Updated IROM to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'IROM'...
-Upgrading 'axi_crossbar_0'
-INFO: [IP_Flow 19-3420] Updated axi_crossbar_0 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_crossbar_0'...
-Upgrading 'axi_gpio_0'
-INFO: [IP_Flow 19-3420] Updated axi_gpio_0 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_gpio_0'...
-Upgrading 'axi_gpio_1'
-INFO: [IP_Flow 19-3420] Updated axi_gpio_1 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_gpio_1'...
-Upgrading 'axi_gpio_2'
-INFO: [IP_Flow 19-3420] Updated axi_gpio_2 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_gpio_2'...
-Upgrading 'axi_gpio_3'
-INFO: [IP_Flow 19-3420] Updated axi_gpio_3 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_gpio_3'...
-Upgrading 'axi_protocol_converter_0'
-INFO: [IP_Flow 19-3420] Updated axi_protocol_converter_0 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_protocol_converter_0'...
-Upgrading 'axi_uartlite_0'
-INFO: [IP_Flow 19-3420] Updated axi_uartlite_0 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_uartlite_0'...
-Upgrading 'blk_mem_gen_1'
-INFO: [IP_Flow 19-3420] Updated blk_mem_gen_1 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_1'...
-Upgrading 'bram_axi'
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci' from fileset 'bram_axi' to fileset 'sources_1'.
-WARNING: [IP_Flow 19-4050] The normal upgrade process failed due to validation failures in the given configuration. Attempting partial upgrade to set as many user parameters as possible. Please check the parameters whose values were not applied.
-WARNING: [IP_Flow 19-3932] Unable to set the value '112640' on parameter 'Write Depth A' due to the following failure - 
-Validation failed for parameter 'Disable Collision Warnings(Disable_Collision_Warnings)' with current value 'false' for IP 'bram_axi'. User configuration exceeds BRAM count in the selected device
-. Restoring to an old valid value of '1024'
-WARNING: [IP_Flow 19-3932] Unable to set the value 'true' on parameter 'Load Init File' due to the following failure - 
-Validation failed for parameter 'Coe File(Coe_File)' with current value 'no_coe_file_loaded' for IP 'bram_axi'. No COE file loaded
-. Restoring to an old valid value of 'false'
-WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Coe_File' from 'no_coe_file_loaded' to '../../../coe/lw.coe' has been ignored for IP 'bram_axi'
-INFO: [IP_Flow 19-3420] Updated bram_axi to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'bram_axi'...
-CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'bram_axi' has identified issues that may require user intervention. Please review the upgrade log 'd:/cpu-design/miniRV-with-SoC/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
-Upgrading 'clk_wiz_0'
-INFO: [Device 21-403] Loading part xc7a35tcsg324-1
-INFO: [IP_Flow 19-3420] Updated clk_wiz_0 to use current project options
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
-INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/cpu-design/miniRV-with-SoC/ip_upgrade.log'.
-upgrade_ip: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2348.777 ; gain = 31.910
-export_ip_user_files -of_objects [get_ips {DRAM IROM axi_crossbar_0 axi_gpio_0 axi_gpio_1 axi_gpio_2 axi_gpio_3 axi_protocol_converter_0 axi_uartlite_0 blk_mem_gen_1 bram_axi clk_wiz_0}] -no_script -sync -force -quiet
-update_compile_order -fileset sources_1
-generate_target all [get_files  {D:/cpu-design/miniRV-with-SoC/src/rtl/ip/DRAM/DRAM.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/IROM/IROM.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1/blk_mem_gen_1.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci D:/cpu-design/miniRV-with-SoC/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci}]
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'DRAM'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'DRAM'...
-INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'DRAM'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'DRAM'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'IROM'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'IROM'...
-INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'IROM'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'IROM'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_crossbar_0'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_crossbar_0'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_crossbar_0'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_gpio_0'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_gpio_0'...
-INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'axi_gpio_0'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_gpio_0'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_gpio_1'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_gpio_1'...
-INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'axi_gpio_1'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_gpio_1'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_gpio_2'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_gpio_2'...
-INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'axi_gpio_2'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_gpio_2'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_gpio_3'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_gpio_3'...
-INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'axi_gpio_3'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_gpio_3'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_protocol_converter_0'...
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0_ooc.xdc'
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_protocol_converter_0'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_protocol_converter_0'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_uartlite_0'...
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0_ooc.xdc'
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_uartlite_0'...
-INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'axi_uartlite_0'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_uartlite_0'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_1'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_1'...
-INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_1'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_1'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
-INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
-generate_target: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2350.008 ; gain = 1.230
-catch { config_ip_cache -export [get_ips -all DRAM] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DRAM, cache-ID = 78e1cbbb3ca2bd41; cache size = 18.212 MB.
-catch { config_ip_cache -export [get_ips -all IROM] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP IROM, cache-ID = 37bc6710324c379f; cache size = 18.212 MB.
-catch { config_ip_cache -export [get_ips -all axi_crossbar_0] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP axi_crossbar_0, cache-ID = 3fad3fe9d7af103e; cache size = 18.212 MB.
-catch { config_ip_cache -export [get_ips -all axi_gpio_0] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP axi_gpio_0, cache-ID = 0956d7a15bbf3442; cache size = 18.212 MB.
-catch { config_ip_cache -export [get_ips -all axi_gpio_1] }
-catch { config_ip_cache -export [get_ips -all axi_gpio_2] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP axi_gpio_2, cache-ID = 9c363d77ec81d6d5; cache size = 18.212 MB.
-catch { config_ip_cache -export [get_ips -all axi_gpio_3] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP axi_gpio_3, cache-ID = 81d6c6f9d707278e; cache size = 18.212 MB.
-catch { config_ip_cache -export [get_ips -all axi_protocol_converter_0] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP axi_protocol_converter_0, cache-ID = 2b593d213abb97f5; cache size = 18.212 MB.
-catch { config_ip_cache -export [get_ips -all axi_uartlite_0] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP axi_uartlite_0, cache-ID = 3d135775675ed508; cache size = 18.212 MB.
-catch { config_ip_cache -export [get_ips -all blk_mem_gen_1] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP blk_mem_gen_1, cache-ID = 4f8cd0c6d1627220; cache size = 18.212 MB.
-catch { config_ip_cache -export [get_ips -all bram_axi] }
-catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP clk_wiz_0, cache-ID = 20d6a3977b5ac075; cache size = 18.212 MB.
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/DRAM/DRAM.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/IROM/IROM.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1/blk_mem_gen_1.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -no_script -sync -force -quiet
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/DRAM/DRAM.xci]
-INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/DRAM/DRAM.xci'
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/IROM/IROM.xci]
-INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/IROM/IROM.xci'
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci]
-INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci'
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci]
-INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci'
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci]
-INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci'
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci]
-INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci'
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci]
-INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci'
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci]
-INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci'
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1/blk_mem_gen_1.xci]
-INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1/blk_mem_gen_1.xci'
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci]
-INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci'
-launch_runs axi_gpio_1_synth_1 bram_axi_synth_1
-[Wed Jul 29 12:11:37 2026] Launched axi_gpio_1_synth_1, bram_axi_synth_1...
-Run output will be captured here:
-axi_gpio_1_synth_1: D:/cpu-design/miniRV-with-SoC/miniRV.runs/axi_gpio_1_synth_1/runme.log
-bram_axi_synth_1: D:/cpu-design/miniRV-with-SoC/miniRV.runs/bram_axi_synth_1/runme.log
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/DRAM/DRAM.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/IROM/IROM.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_crossbar_0/axi_crossbar_0.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_0/axi_gpio_0.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_1/axi_gpio_1.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_2/axi_gpio_2.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_gpio_3/axi_gpio_3.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_protocol_converter_0/axi_protocol_converter_0.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/axi_uartlite_0/axi_uartlite_0.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/blk_mem_gen_1/blk_mem_gen_1.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/clk_wiz_0/clk_wiz_0.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-INFO: [IP_Flow 19-3484] Absolute path of file 'd:/cpu-design/miniRV-with-SoC/src/coe/lw.coe' provided. It will be converted relative to IP Instance files '../../../../src/coe/lw.coe'
-report_ip_status -name ip_status 
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-reset_property  ALL_PROPS  [get_ips bram_axi]
-set_property -dict [list \
-  CONFIG.Interface_Type {AXI4} \
-  CONFIG.Write_Depth_A {38400} \
-] [get_ips bram_axi]
-generate_target all [get_files  D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'bram_axi'...
-catch { config_ip_cache -export [get_ips -all bram_axi] }
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -no_script -sync -force -quiet
-reset_run bram_axi_synth_1
-launch_runs bram_axi_synth_1
-[Wed Jul 29 12:16:21 2026] Launched bram_axi_synth_1...
-Run output will be captured here: D:/cpu-design/miniRV-with-SoC/miniRV.runs/bram_axi_synth_1/runme.log
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-INFO: [IP_Flow 19-3484] Absolute path of file 'd:/cpu-design/miniRV-with-SoC/src/coe/lw.coe' provided. It will be converted relative to IP Instance files '../../../../src/coe/lw.coe'
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-INFO: [IP_Flow 19-3484] Absolute path of file 'd:/cpu-design/miniRV-with-SoC/src/coe/pipeline_test.coe' provided. It will be converted relative to IP Instance files '../../../../src/coe/pipeline_test.coe'
-INFO: [IP_Flow 19-3484] Absolute path of file 'd:/cpu-design/miniRV-with-SoC/src/coe/pipeline_test.coe' provided. It will be converted relative to IP Instance files '../../../../src/coe/pipeline_test.coe'
-INFO: [IP_Flow 19-3484] Absolute path of file 'd:/cpu-design/miniRV-with-SoC/src/coe/pipeline_test.coe' provided. It will be converted relative to IP Instance files '../../../../src/coe/pipeline_test.coe'
-INFO: [IP_Flow 19-3484] Absolute path of file 'd:/cpu-design/miniRV-with-SoC/src/coe/lw.coe' provided. It will be converted relative to IP Instance files '../../../../src/coe/lw.coe'
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-report_ip_status -name ip_status 
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
-INFO: [IP_Flow 19-3484] Absolute path of file 'd:/cpu-design/miniRV-with-SoC/src/coe/lw.coe' provided. It will be converted relative to IP Instance files '../../../../src/coe/lw.coe'
-set_property -dict [list \
-  CONFIG.Coe_File {D:/cpu-design/miniRV-with-SoC/src/coe/lw.coe} \
-  CONFIG.EN_SAFETY_CKT {false} \
-  CONFIG.Fill_Remaining_Memory_Locations {true} \
-  CONFIG.Load_Init_File {true} \
-] [get_ips bram_axi]
-INFO: [IP_Flow 19-3484] Absolute path of file 'd:/cpu-design/miniRV-with-SoC/src/coe/lw.coe' provided. It will be converted relative to IP Instance files '../../../coe/lw.coe'
-generate_target all [get_files  D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'bram_axi'...
-INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'bram_axi'...
-catch { config_ip_cache -export [get_ips -all bram_axi] }
-INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP bram_axi, cache-ID = 84dea14a196e2fc9; cache size = 22.332 MB.
-catch { [ delete_ip_run [get_ips -all bram_axi] ] }
-INFO: [Project 1-386] Moving file 'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci' from fileset 'bram_axi' to fileset 'sources_1'.
-export_ip_user_files -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci]
-INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci'
-export_simulation -lib_map_path [list {modelsim=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/modelsim} {questa=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/questa} {riviera=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/riviera} {activehdl=D:/cpu-design/miniRV-with-SoC/miniRV.cache/compile_simlib/activehdl}] -of_objects [get_files D:/cpu-design/miniRV-with-SoC/src/rtl/ip/bram_axi/bram_axi.xci] -directory D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/sim_scripts -ip_user_files_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files -ipstatic_source_dir D:/cpu-design/miniRV-with-SoC/miniRV.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
-update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2025.1
+  **** Build date : May  6 2025 at 09:15:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2025.1.0
+  ****** Build date   : May 14 2025-03:15:27
+    **** Build number : 2025.1.1747163727
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1806.395 ; gain = 8.957
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {D:/cpu-design/miniRV-with-SoC/miniRV.runs/impl_1/miniRV_SoC.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/cpu-design/miniRV-with-SoC/miniRV.runs/impl_1/miniRV_SoC.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed Jul 29 12:26:04 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 31 18:19:10 2026...

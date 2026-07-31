@@ -131,6 +131,7 @@ axi_protocol_converter_0 U_display_converter (
     .s_axi_rready   (s_axi_rready),
 
     .m_axi_awaddr  (display_awaddr),
+    .m_axi_awprot  (),
     .m_axi_awvalid (display_awvalid),
     .m_axi_awready (display_awready),
     .m_axi_wdata   (display_wdata),
@@ -141,6 +142,7 @@ axi_protocol_converter_0 U_display_converter (
     .m_axi_bvalid  (display_bvalid),
     .m_axi_bready  (display_bready),
     .m_axi_araddr  (display_araddr),
+    .m_axi_arprot  (),
     .m_axi_arvalid (display_arvalid),
     .m_axi_arready (display_arready),
     .m_axi_rdata   (display_rdata),
